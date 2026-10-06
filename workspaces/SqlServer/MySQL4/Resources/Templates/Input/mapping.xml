@@ -1,0 +1,8 @@
+<Items>
+    <actor_bak table="`actor`" action="UPSERT">
+        <actor_id type="smallint" key="true" ref="@@LAST_INSERT_ID" />
+        <first_name />
+        <last_name />
+        <last_update type="datetime" />
+    </actor_bak>
+</Items>

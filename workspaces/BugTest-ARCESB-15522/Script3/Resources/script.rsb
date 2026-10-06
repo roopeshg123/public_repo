@@ -1,0 +1,6 @@
+<arc:enum range="1..5">
+  <arc:set attr="output.data" value="[guid() | hexdecode() | base64encode()]" />
+</arc:enum>
+
+<arc:set attr="output.filename" value="guid_corrupt_test.txt" />
+<arc:push item="output" />

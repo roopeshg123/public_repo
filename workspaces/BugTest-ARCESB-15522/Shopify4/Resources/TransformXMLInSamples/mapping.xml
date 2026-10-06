@@ -1,0 +1,268 @@
+<Items>
+    <Orders table="`Orders`" action="UPSERT">
+        <AppId />
+        <BillingAddressAddress1 />
+        <BillingAddressAddress2 />
+        <BillingAddressCity />
+        <BillingAddressCountryCodeV2 />
+        <BillingAddressName />
+        <BillingAddressProvince />
+        <BillingAddressZip />
+        <CustomerFirstName />
+        <CustomerLastName />
+        <Email />
+        <Note />
+        <Phone />
+        <ProcessedAt type="datetime" />
+        <ShippingAddressAddress1 />
+        <ShippingAddressAddress2 />
+        <ShippingAddressCity />
+        <ShippingAddressCountry />
+        <ShippingAddressCountryCodeV2 />
+        <ShippingAddressName />
+        <ShippingAddressProvince />
+        <ShippingAddressZip />
+        <Tags />
+        <Id key="true" />
+        <BillingAddressCompany />
+        <BillingAddressCoordinatesValidated type="boolean" />
+        <BillingAddressCountry />
+        <BillingAddressFirstName />
+        <BillingAddressFormattedArea />
+        <BillingAddressId />
+        <BillingAddressLastName />
+        <BillingAddressLatitude type="double" />
+        <BillingAddressLongitude type="double" />
+        <BillingAddressMatchesShippingAddress type="boolean" />
+        <BillingAddressPhone />
+        <BillingAddressProvinceCode />
+        <BillingAddressValidationResultSummary />
+        <CancelledAt type="datetime" />
+        <CancelReason />
+        <CanMarkAsPaid type="boolean" />
+        <CanNotifyCustomer type="boolean" />
+        <Capturable type="boolean" />
+        <CartDiscountAmountSetPresentmentMoneyAmount type="decimal" />
+        <CartDiscountAmountSetPresentmentMoneyCurrencyCode />
+        <CartDiscountAmountSetShopMoneyAmount type="decimal" />
+        <CartDiscountAmountSetShopMoneyCurrencyCode />
+        <ChannelInformationAppId />
+        <ChannelInformationChannelDefinitionId />
+        <ChannelInformationChannelId />
+        <ChannelInformationId />
+        <ClientIp />
+        <Closed type="boolean" />
+        <ClosedAt type="datetime" />
+        <ConfirmationNumber />
+        <Confirmed type="boolean" />
+        <CreatedAt type="datetime" />
+        <CurrencyCode />
+        <CurrentCartDiscountAmountSetPresentmentMoneyAmount type="decimal" />
+        <CurrentCartDiscountAmountSetPresentmentMoneyCurrencyCode />
+        <CurrentCartDiscountAmountSetShopMoneyAmount type="decimal" />
+        <CurrentCartDiscountAmountSetShopMoneyCurrencyCode />
+        <CurrentSubtotalLineItemsQuantity type="integer" />
+        <CurrentSubtotalPriceSetPresentmentMoneyAmount type="decimal" />
+        <CurrentSubtotalPriceSetPresentmentMoneyCurrencyCode />
+        <CurrentSubtotalPriceSetShopMoneyAmount type="decimal" />
+        <CurrentSubtotalPriceSetShopMoneyCurrencyCode />
+        <CurrentTotalAdditionalFeesSetPresentmentMoneyAmount type="decimal" />
+        <CurrentTotalAdditionalFeesSetPresentmentMoneyCurrencyCode />
+        <CurrentTotalAdditionalFeesSetShopMoneyAmount type="decimal" />
+        <CurrentTotalAdditionalFeesSetShopMoneyCurrencyCode />
+        <CurrentTotalDiscountsSetPresentmentMoneyAmount type="decimal" />
+        <CurrentTotalDiscountsSetPresentmentMoneyCurrencyCode />
+        <CurrentTotalDiscountsSetShopMoneyAmount type="decimal" />
+        <CurrentTotalDiscountsSetShopMoneyCurrencyCode />
+        <CurrentTotalDutiesSetPresentmentMoneyAmount type="decimal" />
+        <CurrentTotalDutiesSetPresentmentMoneyCurrencyCode />
+        <CurrentTotalDutiesSetShopMoneyAmount type="decimal" />
+        <CurrentTotalDutiesSetShopMoneyCurrencyCode />
+        <CurrentTotalPriceSetPresentmentMoneyAmount type="decimal" />
+        <CurrentTotalPriceSetPresentmentMoneyCurrencyCode />
+        <CurrentTotalPriceSetShopMoneyAmount type="decimal" />
+        <CurrentTotalPriceSetShopMoneyCurrencyCode />
+        <CurrentTotalTaxSetPresentmentMoneyAmount type="decimal" />
+        <CurrentTotalTaxSetPresentmentMoneyCurrencyCode />
+        <CurrentTotalTaxSetShopMoneyAmount type="decimal" />
+        <CurrentTotalTaxSetShopMoneyCurrencyCode />
+        <CurrentTotalWeight />
+        <CustomerAcceptsMarketing type="boolean" />
+        <CustomerId />
+        <CustomerJourneySummaryCustomerOrderIndex type="integer" />
+        <CustomerJourneySummaryDaysToConversion type="integer" />
+        <CustomerJourneySummaryFirstVisitId />
+        <CustomerJourneySummaryFirstVisitLandingPage />
+        <CustomerJourneySummaryFirstVisitLandingPageHtml />
+        <CustomerJourneySummaryFirstVisitOccurredAt type="datetime" />
+        <CustomerJourneySummaryFirstVisitReferralCode />
+        <CustomerJourneySummaryFirstVisitReferralInfoHtml />
+        <CustomerJourneySummaryFirstVisitReferrerUrl />
+        <CustomerJourneySummaryFirstVisitSource />
+        <CustomerJourneySummaryFirstVisitSourceDescription />
+        <CustomerJourneySummaryFirstVisitSourceType />
+        <CustomerJourneySummaryLastVisitId />
+        <CustomerJourneySummaryLastVisitLandingPage />
+        <CustomerJourneySummaryLastVisitLandingPageHtml />
+        <CustomerJourneySummaryLastVisitOccurredAt type="datetime" />
+        <CustomerJourneySummaryLastVisitReferralCode />
+        <CustomerJourneySummaryLastVisitReferralInfoHtml />
+        <CustomerJourneySummaryLastVisitReferrerUrl />
+        <CustomerJourneySummaryLastVisitSource />
+        <CustomerJourneySummaryLastVisitSourceDescription />
+        <CustomerJourneySummaryLastVisitSourceType />
+        <CustomerJourneySummaryMomentsCount type="integer" />
+        <CustomerJourneySummaryMomentsCountPrecision />
+        <CustomerJourneySummaryReady type="boolean" />
+        <CustomerLocale />
+        <DiscountCode />
+        <DiscountCodes />
+        <DisplayAddressAddress1 />
+        <DisplayAddressAddress2 />
+        <DisplayAddressCity />
+        <DisplayAddressCompany />
+        <DisplayAddressCoordinatesValidated type="boolean" />
+        <DisplayAddressCountry />
+        <DisplayAddressCountryCodeV2 />
+        <DisplayAddressFirstName />
+        <DisplayAddressFormattedArea />
+        <DisplayAddressId />
+        <DisplayAddressLastName />
+        <DisplayAddressLatitude type="double" />
+        <DisplayAddressLongitude type="double" />
+        <DisplayAddressName />
+        <DisplayAddressPhone />
+        <DisplayAddressProvince />
+        <DisplayAddressProvinceCode />
+        <DisplayAddressValidationResultSummary />
+        <DisplayAddressZip />
+        <DisplayFinancialStatus />
+        <DisplayFulfillmentStatus />
+        <Edited type="boolean" />
+        <EstimatedTaxes type="boolean" />
+        <Fulfillable type="boolean" />
+        <FulfillmentsCount type="integer" />
+        <FulfillmentsCountPrecision />
+        <FullyPaid type="boolean" />
+        <HasTimelineComment type="boolean" />
+        <LegacyResourceId />
+        <MerchantEditable type="boolean" />
+        <MerchantEditableErrors />
+        <MerchantOfRecordAppId />
+        <Name />
+        <NetPaymentSetPresentmentMoneyAmount type="decimal" />
+        <NetPaymentSetPresentmentMoneyCurrencyCode />
+        <NetPaymentSetShopMoneyAmount type="decimal" />
+        <NetPaymentSetShopMoneyCurrencyCode />
+        <OriginalTotalAdditionalFeesSetPresentmentMoneyAmount type="decimal" />
+        <OriginalTotalAdditionalFeesSetPresentmentMoneyCurrencyCode />
+        <OriginalTotalAdditionalFeesSetShopMoneyAmount type="decimal" />
+        <OriginalTotalAdditionalFeesSetShopMoneyCurrencyCode />
+        <OriginalTotalDutiesSetPresentmentMoneyAmount type="decimal" />
+        <OriginalTotalDutiesSetPresentmentMoneyCurrencyCode />
+        <OriginalTotalDutiesSetShopMoneyAmount type="decimal" />
+        <OriginalTotalDutiesSetShopMoneyCurrencyCode />
+        <OriginalTotalPriceSetPresentmentMoneyAmount type="decimal" />
+        <OriginalTotalPriceSetPresentmentMoneyCurrencyCode />
+        <OriginalTotalPriceSetShopMoneyAmount type="decimal" />
+        <OriginalTotalPriceSetShopMoneyCurrencyCode />
+        <PaymentCollectionDetailsAdditionalPaymentCollectionUrl />
+        <PaymentGatewayNames />
+        <PaymentTermsDraftOrderId />
+        <PaymentTermsDueInDays type="integer" />
+        <PaymentTermsId />
+        <PaymentTermsOverdue type="boolean" />
+        <PaymentTermsPaymentTermsName />
+        <PaymentTermsPaymentTermsType />
+        <PaymentTermsTranslatedName />
+        <PhysicalLocationId />
+        <PresentmentCurrencyCode />
+        <PublicationId />
+        <PurchasingEntityCompanyId />
+        <PurchasingEntityCustomerId />
+        <Refundable type="boolean" />
+        <RefundDiscrepancySetPresentmentMoneyAmount type="decimal" />
+        <RefundDiscrepancySetPresentmentMoneyCurrencyCode />
+        <RefundDiscrepancySetShopMoneyAmount type="decimal" />
+        <RefundDiscrepancySetShopMoneyCurrencyCode />
+        <RegisteredSourceUrl />
+        <RequiresShipping type="boolean" />
+        <Restockable type="boolean" />
+        <RetailLocationId />
+        <ReturnStatus />
+        <RiskRecommendation />
+        <ShippingAddressCompany />
+        <ShippingAddressCoordinatesValidated type="boolean" />
+        <ShippingAddressFirstName />
+        <ShippingAddressFormattedArea />
+        <ShippingAddressId />
+        <ShippingAddressLastName />
+        <ShippingAddressLatitude type="double" />
+        <ShippingAddressLongitude type="double" />
+        <ShippingAddressPhone />
+        <ShippingAddressProvinceCode />
+        <ShippingAddressValidationResultSummary />
+        <ShippingLineCarrierIdentifier />
+        <ShippingLineCode />
+        <ShippingLineCustom type="boolean" />
+        <ShippingLineDeliveryCategory />
+        <ShippingLineId />
+        <ShippingLinePhone />
+        <ShippingLineRequestedFulfillmentServiceId />
+        <ShippingLineShippingRateHandle />
+        <ShippingLineSource />
+        <ShippingLineTitle />
+        <SourceIdentifier />
+        <SourceName />
+        <SubtotalLineItemsQuantity type="integer" />
+        <SubtotalPriceSetPresentmentMoneyAmount type="decimal" />
+        <SubtotalPriceSetPresentmentMoneyCurrencyCode />
+        <SubtotalPriceSetShopMoneyAmount type="decimal" />
+        <SubtotalPriceSetShopMoneyCurrencyCode />
+        <TaxesIncluded type="boolean" />
+        <Test type="boolean" />
+        <TotalCapturableSetPresentmentMoneyAmount type="decimal" />
+        <TotalCapturableSetPresentmentMoneyCurrencyCode />
+        <TotalCapturableSetShopMoneyAmount type="decimal" />
+        <TotalCapturableSetShopMoneyCurrencyCode />
+        <TotalDiscountsSetPresentmentMoneyAmount type="decimal" />
+        <TotalDiscountsSetPresentmentMoneyCurrencyCode />
+        <TotalDiscountsSetShopMoneyAmount type="decimal" />
+        <TotalDiscountsSetShopMoneyCurrencyCode />
+        <TotalOutstandingSetPresentmentMoneyAmount type="decimal" />
+        <TotalOutstandingSetPresentmentMoneyCurrencyCode />
+        <TotalOutstandingSetShopMoneyAmount type="decimal" />
+        <TotalOutstandingSetShopMoneyCurrencyCode />
+        <TotalPriceSetPresentmentMoneyAmount type="decimal" />
+        <TotalPriceSetPresentmentMoneyCurrencyCode />
+        <TotalPriceSetShopMoneyAmount type="decimal" />
+        <TotalPriceSetShopMoneyCurrencyCode />
+        <TotalReceivedSetPresentmentMoneyAmount type="decimal" />
+        <TotalReceivedSetPresentmentMoneyCurrencyCode />
+        <TotalReceivedSetShopMoneyAmount type="decimal" />
+        <TotalReceivedSetShopMoneyCurrencyCode />
+        <TotalRefundedSetPresentmentMoneyAmount type="decimal" />
+        <TotalRefundedSetPresentmentMoneyCurrencyCode />
+        <TotalRefundedSetShopMoneyAmount type="decimal" />
+        <TotalRefundedSetShopMoneyCurrencyCode />
+        <TotalRefundedShippingSetPresentmentMoneyAmount type="decimal" />
+        <TotalRefundedShippingSetPresentmentMoneyCurrencyCode />
+        <TotalRefundedShippingSetShopMoneyAmount type="decimal" />
+        <TotalRefundedShippingSetShopMoneyCurrencyCode />
+        <TotalShippingPriceSetPresentmentMoneyAmount type="decimal" />
+        <TotalShippingPriceSetPresentmentMoneyCurrencyCode />
+        <TotalShippingPriceSetShopMoneyAmount type="decimal" />
+        <TotalShippingPriceSetShopMoneyCurrencyCode />
+        <TotalTaxSetPresentmentMoneyAmount type="decimal" />
+        <TotalTaxSetPresentmentMoneyCurrencyCode />
+        <TotalTaxSetShopMoneyAmount type="decimal" />
+        <TotalTaxSetShopMoneyCurrencyCode />
+        <TotalTipReceivedSetPresentmentMoneyAmount type="decimal" />
+        <TotalTipReceivedSetPresentmentMoneyCurrencyCode />
+        <TotalTipReceivedSetShopMoneyAmount type="decimal" />
+        <TotalTipReceivedSetShopMoneyCurrencyCode />
+        <TotalWeight />
+        <Unpaid type="boolean" />
+        <UpdatedAt type="datetime" />
+    </Orders>
+</Items>

@@ -1,0 +1,1506 @@
+Content-Type: application/edi-x12
+Processed: by As2:As2-AS2; Success; 2026-09-30T10:23:23.195+05:30
+EDIFACT-TransactionCode: INVOIC
+EDI-Incoming-TX-Type: INVOIC
+EDI-Incoming-TX-Version: D97A
+Processed: by As2:As2-EDIFACT; Success; 2026-09-30T10:23:23.546+05:30
+MIME-Version: 1.0
+X-Powered-By: Arc
+Message-Id: As2-AS2-20260930-102323119-Qt4F
+Filename: INVOICedfefrtrgrggvgbgbhnhnhnhnhnhnhnhnhnhnhn_000000002.xml
+
+<Interchange Delimiters=":+.?*&apos;" xmlns="http://www.rssbus.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Meta>
+<!--SYNTAX IDENTIFIER-->
+<UNB1 type="Composite">
+<!--Syntax identifier-->
+<UNB1.1><!--UN/ECE level B-->UNOB</UNB1.1>
+<!--Syntax version number-->
+<UNB1.2><!--Version 3-->3</UNB1.2>
+</UNB1>
+<!--INTERCHANGE SENDER-->
+<UNB2 type="Composite">
+<!--Interchange sender identification-->
+<UNB2.1> </UNB2.1>
+</UNB2>
+<!--INTERCHANGE RECIPIENT-->
+<UNB3 type="Composite">
+<!--Interchange recipient identification-->
+<UNB3.1> </UNB3.1>
+</UNB3>
+<!--DATE AND TIME OF PREPARATION-->
+<UNB4 type="Composite">
+<!--Date-->
+<UNB4.1>250217</UNB4.1>
+<!--Time-->
+<UNB4.2>1212</UNB4.2>
+</UNB4>
+<!--Interchange control reference-->
+<UNB5>000000002</UNB5>
+</Meta>
+<TransactionSet>
+<TX-D97A-INVOIC type="TransactionSet">
+<Meta>
+<!--MESSAGE REFERENCE NUMBER-->
+<_0062>509010117</_0062>
+<!--MESSAGE IDENTIFIER-->
+<S009 type="Composite">
+<!--Message type identifier-->
+<_0065><!--Invoice message-->INVOIC</_0065>
+<!--Message type version number-->
+<_0052><!--Draft version/UN/EDIFACT Directory-->D</_0052>
+<!--Message type release number-->
+<_0054><!--Release 1997 - A-->97A</_0054>
+<!--Controlling agency-->
+<_0051><!--UN/ECE/TRADE/WP.4-->UN</_0051>
+</S009>
+</Meta>
+<!--BEGINNING OF MESSAGE-->
+<BGM type="Segment">
+<!--DOCUMENT/MESSAGE NAME-->
+<C002 type="Composite">
+<!--Document/message name, coded-->
+<_1001><!--Commercial invoice-->380</_1001>
+<!--Code list qualifier-->
+<_1131></_1131>
+<!--Code list responsible agency, coded-->
+<_3055></_3055>
+<!--Document/message name-->
+<_1000>TAX INVOICE</_1000>
+</C002>
+<!--DOCUMENT/MESSAGE IDENTIFICATION-->
+<C106 type="Composite">
+<!--Document/message number-->
+<_1004>0013550417</_1004>
+</C106>
+<!--MESSAGE FUNCTION, CODED-->
+<_1225><!--Original-->9</_1225>
+</BGM>
+<!--DATE/TIME/PERIOD-->
+<DTM type="Segment">
+<!--DATE/TIME/PERIOD-->
+<C507 type="Composite">
+<!--Date/time/period qualifier-->
+<_2005><!--Invoice date/time-->3</_2005>
+<!--Date/time/period-->
+<_2380>20070926</_2380>
+<!--Date/time/period format qualifier-->
+<_2379><!--CCYYMMDD-->102</_2379>
+</C507>
+</DTM>
+<!--DATE/TIME/PERIOD-->
+<DTM type="Segment">
+<!--DATE/TIME/PERIOD-->
+<C507 type="Composite">
+<!--Date/time/period qualifier-->
+<_2005><!--Order date/time-->4</_2005>
+<!--Date/time/period-->
+<_2380>20061123</_2380>
+<!--Date/time/period format qualifier-->
+<_2379><!--CCYYMMDD-->102</_2379>
+</C507>
+</DTM>
+<!--FREE TEXT-->
+<FTX type="Segment">
+<!--TEXT SUBJECT QUALIFIER-->
+<_4451><!--General information-->AAI</_4451>
+<!--TEXT FUNCTION, CODED-->
+<_4453><!--Text for subsequent use-->1</_4453>
+</FTX>
+<TAXLoop1 type="Loop">
+<!--DUTY/TAX/FEE DETAILS-->
+<TAX type="Segment">
+<!--DUTY/TAX/FEE FUNCTION QUALIFIER-->
+<_5283><!--Tax-->7</_5283>
+<!--DUTY/TAX/FEE TYPE-->
+<C241 type="Composite">
+<!--Duty/tax/fee type, coded-->
+<_5153><!--Value added tax-->VAT</_5153>
+</C241>
+<!--DUTY/TAX/FEE ACCOUNT DETAIL-->
+<C533 type="Composite">
+<!--Duty/tax/fee account identification-->
+<_5289> </_5289>
+</C533>
+<!--DUTY/TAX/FEE ASSESSMENT BASIS-->
+<_5286/>
+<!--DUTY/TAX/FEE DETAIL-->
+<C243 type="Composite">
+<!--Duty/tax/fee rate identification-->
+<_5279></_5279>
+<!--Code list qualifier-->
+<_1131></_1131>
+<!--Code list responsible agency, coded-->
+<_3055></_3055>
+<!--Duty/tax/fee rate-->
+<_5278>10072.14</_5278>
+</C243>
+<!--DUTY/TAX/FEE CATEGORY, CODED-->
+<_5305><!--Standard rate-->S</_5305>
+</TAX>
+</TAXLoop1>
+<CUXLoop1 type="Loop">
+<!--CURRENCIES-->
+<CUX type="Segment">
+<!--CURRENCY DETAILS-->
+<C504 type="Composite">
+<!--Currency details qualifier-->
+<_6347><!--Reference currency-->2</_6347>
+<!--Currency, coded-->
+<_6345>EUR</_6345>
+<!--Currency qualifier-->
+<_6343><!--Invoicing currency-->4</_6343>
+</C504>
+<!--CURRENCY DETAILS-->
+<C504 type="Composite" repeat="false">
+</C504>
+<!--RATE OF EXCHANGE-->
+<_5402>0.67529</_5402>
+</CUX>
+</CUXLoop1>
+<PATLoop1 type="Loop">
+<!--PAYMENT TERMS BASIS-->
+<PAT type="Segment">
+<!--PAYMENT TERMS TYPE QUALIFIER-->
+<_4279><!--Basic-->1</_4279>
+</PAT>
+<!--DATE/TIME/PERIOD-->
+<DTM type="Segment">
+<!--DATE/TIME/PERIOD-->
+<C507 type="Composite">
+<!--Date/time/period qualifier-->
+<_2005><!--Shipment date/time, requested-->10</_2005>
+<!--Date/time/period-->
+<_2380>20070926</_2380>
+<!--Date/time/period format qualifier-->
+<_2379><!--CCYYMMDD-->102</_2379>
+</C507>
+</DTM>
+<!--PERCENTAGE DETAILS-->
+<PCD type="Segment">
+<!--PERCENTAGE DETAILS-->
+<C501 type="Composite">
+<!--Percentage qualifier-->
+<_5245><!--Charge-->2</_5245>
+<!--Percentage-->
+<_5482>0</_5482>
+<!--Percentage basis, coded-->
+<_5249><!--Invoice value-->13</_5249>
+</C501>
+</PCD>
+</PATLoop1>
+<LINLoop1 type="Loop">
+<!--LINE ITEM-->
+<LIN type="Segment">
+<!--LINE ITEM NUMBER-->
+<_1082>000030</_1082>
+</LIN>
+<!--ADDITIONAL PRODUCT ID-->
+<PIA type="Segment">
+<!--PRODUCT ID. FUNCTION QUALIFIER-->
+<_4347><!--Additional identification-->1</_4347>
+<!--ITEM NUMBER IDENTIFICATION-->
+<C212 type="Composite">
+<!--Item number-->
+<_7140>2265S13</_7140>
+<!--Item number type, coded-->
+<_7143><!--Buyer&apos;s part number-->BP</_7143>
+<!--Code list qualifier-->
+<_1131></_1131>
+<!--Code list responsible agency, coded-->
+<_3055><!--Assigned by buyer or buyer&apos;s agent-->92</_3055>
+</C212>
+</PIA>
+<!--ADDITIONAL PRODUCT ID-->
+<PIA type="Segment">
+<!--PRODUCT ID. FUNCTION QUALIFIER-->
+<_4347><!--Additional identification-->1</_4347>
+<!--ITEM NUMBER IDENTIFICATION-->
+<C212 type="Composite">
+<!--Item number-->
+<_7140>5029766832002</_7140>
+<!--Item number type, coded-->
+<_7143><!--UPC (Universal product code)-->UP</_7143>
+<!--Code list qualifier-->
+<_1131></_1131>
+<!--Code list responsible agency, coded-->
+<_3055><!--Assigned by buyer or buyer&apos;s agent-->92</_3055>
+</C212>
+</PIA>
+<!--ITEM DESCRIPTION-->
+<IMD type="Segment">
+<!--ITEM DESCRIPTION TYPE, CODED-->
+<_7077><!--Free-form-->F</_7077>
+</IMD>
+<!--QUANTITY-->
+<QTY type="Segment">
+<!--QUANTITY DETAILS-->
+<C186 type="Composite">
+<!--Quantity qualifier-->
+<_6063><!--Invoiced quantity-->47</_6063>
+<!--Quantity-->
+<_6060>50.000</_6060>
+<!--Measure unit qualifier-->
+<_6411>EA</_6411>
+</C186>
+</QTY>
+<!--DATE/TIME/PERIOD-->
+<DTM type="Segment">
+<!--DATE/TIME/PERIOD-->
+<C507 type="Composite">
+<!--Date/time/period qualifier-->
+<_2005><!--Despatch date and or time-->11</_2005>
+<!--Date/time/period-->
+<_2380>20070926</_2380>
+<!--Date/time/period format qualifier-->
+<_2379><!--CCYYMMDD-->102</_2379>
+</C507>
+</DTM>
+<MOALoop2 type="Loop">
+<!--MONETARY AMOUNT-->
+<MOA type="Segment">
+<!--MONETARY AMOUNT-->
+<C516 type="Composite">
+<!--Monetary amount type qualifier-->
+<_5025><!--Line item amount-->203</_5025>
+<!--Monetary amount-->
+<_5004>19150.00</_5004>
+</C516>
+</MOA>
+</MOALoop2>
+<PRILoop1 type="Loop">
+<!--PRICE DETAILS-->
+<PRI type="Segment">
+<!--PRICE INFORMATION-->
+<C509 type="Composite">
+<!--Price qualifier-->
+<_5125><!--Invoice price-->INV</_5125>
+<!--Price-->
+<_5118>383.00</_5118>
+<!--Price type, coded-->
+<_5375><!--Traded unit-->TU</_5375>
+</C509>
+</PRI>
+</PRILoop1>
+<TAXLoop3 type="Loop">
+<!--DUTY/TAX/FEE DETAILS-->
+<TAX type="Segment">
+<!--DUTY/TAX/FEE FUNCTION QUALIFIER-->
+<_5283><!--Tax-->7</_5283>
+<!--DUTY/TAX/FEE TYPE-->
+<C241 type="Composite">
+<!--Duty/tax/fee type, coded-->
+<_5153><!--Value added tax-->VAT</_5153>
+</C241>
+<!--DUTY/TAX/FEE ACCOUNT DETAIL-->
+<C533 type="Composite">
+<!--Duty/tax/fee account identification-->
+<_5289> </_5289>
+</C533>
+<!--DUTY/TAX/FEE ASSESSMENT BASIS-->
+<_5286/>
+<!--DUTY/TAX/FEE DETAIL-->
+<C243 type="Composite">
+<!--Duty/tax/fee rate identification-->
+<_5279></_5279>
+<!--Code list qualifier-->
+<_1131></_1131>
+<!--Code list responsible agency, coded-->
+<_3055></_3055>
+<!--Duty/tax/fee rate-->
+<_5278>17.500</_5278>
+</C243>
+<!--DUTY/TAX/FEE CATEGORY, CODED-->
+<_5305><!--Standard rate-->S</_5305>
+</TAX>
+<!--MONETARY AMOUNT-->
+<MOA type="Segment">
+<!--MONETARY AMOUNT-->
+<C516 type="Composite">
+<!--Monetary amount type qualifier-->
+<_5025><!--Taxable amount-->125</_5025>
+<!--Monetary amount-->
+<_5004>19150.45</_5004>
+</C516>
+</MOA>
+</TAXLoop3>
+<ALCLoop2 type="Loop">
+<!--ALLOWANCE OR CHARGE-->
+<ALC type="Segment">
+<!--ALLOWANCE OR CHARGE QUALIFIER-->
+<_5463><!--Charge-->C</_5463>
+<!--ALLOWANCE/CHARGE INFORMATION-->
+<C552 type="Composite">
+<!--Allowance or charge number-->
+<_1230>0.45</_1230>
+</C552>
+<!--SETTLEMENT, CODED-->
+<_4471/>
+<!--CALCULATION SEQUENCE INDICATOR, CODED-->
+<_1227/>
+<!--SPECIAL SERVICES IDENTIFICATION-->
+<C214 type="Composite">
+<!--Special services, coded-->
+<_7161><!--Freight charge-->FC</_7161>
+</C214>
+</ALC>
+<MOALoop3 type="Loop">
+<!--MONETARY AMOUNT-->
+<MOA type="Segment">
+<!--MONETARY AMOUNT-->
+<C516 type="Composite">
+<!--Monetary amount type qualifier-->
+<_5025><!--Allowance or charge amount-->8</_5025>
+<!--Monetary amount-->
+<_5004>0.45</_5004>
+</C516>
+</MOA>
+</MOALoop3>
+</ALCLoop2>
+</LINLoop1>
+<LINLoop1 type="Loop">
+<!--LINE ITEM-->
+<LIN type="Segment">
+<!--LINE ITEM NUMBER-->
+<_1082>000040</_1082>
+</LIN>
+<!--ADDITIONAL PRODUCT ID-->
+<PIA type="Segment">
+<!--PRODUCT ID. FUNCTION QUALIFIER-->
+<_4347><!--Additional identification-->1</_4347>
+<!--ITEM NUMBER IDENTIFICATION-->
+<C212 type="Composite">
+<!--Item number-->
+<_7140>2269F22</_7140>
+<!--Item number type, coded-->
+<_7143><!--Buyer&apos;s part number-->BP</_7143>
+<!--Code list qualifier-->
+<_1131></_1131>
+<!--Code list responsible agency, coded-->
+<_3055><!--Assigned by buyer or buyer&apos;s agent-->92</_3055>
+</C212>
+</PIA>
+<!--ADDITIONAL PRODUCT ID-->
+<PIA type="Segment">
+<!--PRODUCT ID. FUNCTION QUALIFIER-->
+<_4347><!--Additional identification-->1</_4347>
+<!--ITEM NUMBER IDENTIFICATION-->
+<C212 type="Composite">
+<!--Item number-->
+<_7140>5051254078241</_7140>
+<!--Item number type, coded-->
+<_7143><!--UPC (Universal product code)-->UP</_7143>
+<!--Code list qualifier-->
+<_1131></_1131>
+<!--Code list responsible agency, coded-->
+<_3055><!--Assigned by buyer or buyer&apos;s agent-->92</_3055>
+</C212>
+</PIA>
+<!--ITEM DESCRIPTION-->
+<IMD type="Segment">
+<!--ITEM DESCRIPTION TYPE, CODED-->
+<_7077><!--Free-form-->F</_7077>
+</IMD>
+<!--QUANTITY-->
+<QTY type="Segment">
+<!--QUANTITY DETAILS-->
+<C186 type="Composite">
+<!--Quantity qualifier-->
+<_6063><!--Invoiced quantity-->47</_6063>
+<!--Quantity-->
+<_6060>20.000</_6060>
+<!--Measure unit qualifier-->
+<_6411>EA</_6411>
+</C186>
+</QTY>
+<!--DATE/TIME/PERIOD-->
+<DTM type="Segment">
+<!--DATE/TIME/PERIOD-->
+<C507 type="Composite">
+<!--Date/time/period qualifier-->
+<_2005><!--Despatch date and or time-->11</_2005>
+<!--Date/time/period-->
+<_2380>20070926</_2380>
+<!--Date/time/period format qualifier-->
+<_2379><!--CCYYMMDD-->102</_2379>
+</C507>
+</DTM>
+<MOALoop2 type="Loop">
+<!--MONETARY AMOUNT-->
+<MOA type="Segment">
+<!--MONETARY AMOUNT-->
+<C516 type="Composite">
+<!--Monetary amount type qualifier-->
+<_5025><!--Line item amount-->203</_5025>
+<!--Monetary amount-->
+<_5004>21060.00</_5004>
+</C516>
+</MOA>
+</MOALoop2>
+<PRILoop1 type="Loop">
+<!--PRICE DETAILS-->
+<PRI type="Segment">
+<!--PRICE INFORMATION-->
+<C509 type="Composite">
+<!--Price qualifier-->
+<_5125><!--Invoice price-->INV</_5125>
+<!--Price-->
+<_5118>1053.00</_5118>
+<!--Price type, coded-->
+<_5375><!--Traded unit-->TU</_5375>
+</C509>
+</PRI>
+</PRILoop1>
+<TAXLoop3 type="Loop">
+<!--DUTY/TAX/FEE DETAILS-->
+<TAX type="Segment">
+<!--DUTY/TAX/FEE FUNCTION QUALIFIER-->
+<_5283><!--Tax-->7</_5283>
+<!--DUTY/TAX/FEE TYPE-->
+<C241 type="Composite">
+<!--Duty/tax/fee type, coded-->
+<_5153><!--Value added tax-->VAT</_5153>
+</C241>
+<!--DUTY/TAX/FEE ACCOUNT DETAIL-->
+<C533 type="Composite">
+<!--Duty/tax/fee account identification-->
+<_5289> </_5289>
+</C533>
+<!--DUTY/TAX/FEE ASSESSMENT BASIS-->
+<_5286/>
+<!--DUTY/TAX/FEE DETAIL-->
+<C243 type="Composite">
+<!--Duty/tax/fee rate identification-->
+<_5279></_5279>
+<!--Code list qualifier-->
+<_1131></_1131>
+<!--Code list responsible agency, coded-->
+<_3055></_3055>
+<!--Duty/tax/fee rate-->
+<_5278>17.500</_5278>
+</C243>
+<!--DUTY/TAX/FEE CATEGORY, CODED-->
+<_5305><!--Standard rate-->S</_5305>
+</TAX>
+<!--MONETARY AMOUNT-->
+<MOA type="Segment">
+<!--MONETARY AMOUNT-->
+<C516 type="Composite">
+<!--Monetary amount type qualifier-->
+<_5025><!--Taxable amount-->125</_5025>
+<!--Monetary amount-->
+<_5004>21060.50</_5004>
+</C516>
+</MOA>
+</TAXLoop3>
+<ALCLoop2 type="Loop">
+<!--ALLOWANCE OR CHARGE-->
+<ALC type="Segment">
+<!--ALLOWANCE OR CHARGE QUALIFIER-->
+<_5463><!--Charge-->C</_5463>
+<!--ALLOWANCE/CHARGE INFORMATION-->
+<C552 type="Composite">
+<!--Allowance or charge number-->
+<_1230>0.50</_1230>
+</C552>
+<!--SETTLEMENT, CODED-->
+<_4471/>
+<!--CALCULATION SEQUENCE INDICATOR, CODED-->
+<_1227/>
+<!--SPECIAL SERVICES IDENTIFICATION-->
+<C214 type="Composite">
+<!--Special services, coded-->
+<_7161><!--Freight charge-->FC</_7161>
+</C214>
+</ALC>
+<MOALoop3 type="Loop">
+<!--MONETARY AMOUNT-->
+<MOA type="Segment">
+<!--MONETARY AMOUNT-->
+<C516 type="Composite">
+<!--Monetary amount type qualifier-->
+<_5025><!--Allowance or charge amount-->8</_5025>
+<!--Monetary amount-->
+<_5004>0.50</_5004>
+</C516>
+</MOA>
+</MOALoop3>
+</ALCLoop2>
+</LINLoop1>
+<LINLoop1 type="Loop">
+<!--LINE ITEM-->
+<LIN type="Segment">
+<!--LINE ITEM NUMBER-->
+<_1082>000170</_1082>
+</LIN>
+<!--ADDITIONAL PRODUCT ID-->
+<PIA type="Segment">
+<!--PRODUCT ID. FUNCTION QUALIFIER-->
+<_4347><!--Additional identification-->1</_4347>
+<!--ITEM NUMBER IDENTIFICATION-->
+<C212 type="Composite">
+<!--Item number-->
+<_7140>2269F10</_7140>
+<!--Item number type, coded-->
+<_7143><!--Buyer&apos;s part number-->BP</_7143>
+<!--Code list qualifier-->
+<_1131></_1131>
+<!--Code list responsible agency, coded-->
+<_3055><!--Assigned by buyer or buyer&apos;s agent-->92</_3055>
+</C212>
+</PIA>
+<!--ADDITIONAL PRODUCT ID-->
+<PIA type="Segment">
+<!--PRODUCT ID. FUNCTION QUALIFIER-->
+<_4347><!--Additional identification-->1</_4347>
+<!--ITEM NUMBER IDENTIFICATION-->
+<C212 type="Composite">
+<!--Item number-->
+<_7140>5051254078326</_7140>
+<!--Item number type, coded-->
+<_7143><!--UPC (Universal product code)-->UP</_7143>
+<!--Code list qualifier-->
+<_1131></_1131>
+<!--Code list responsible agency, coded-->
+<_3055><!--Assigned by buyer or buyer&apos;s agent-->92</_3055>
+</C212>
+</PIA>
+<!--ITEM DESCRIPTION-->
+<IMD type="Segment">
+<!--ITEM DESCRIPTION TYPE, CODED-->
+<_7077><!--Free-form-->F</_7077>
+</IMD>
+<!--QUANTITY-->
+<QTY type="Segment">
+<!--QUANTITY DETAILS-->
+<C186 type="Composite">
+<!--Quantity qualifier-->
+<_6063><!--Invoiced quantity-->47</_6063>
+<!--Quantity-->
+<_6060>10.000</_6060>
+<!--Measure unit qualifier-->
+<_6411>EA</_6411>
+</C186>
+</QTY>
+<!--DATE/TIME/PERIOD-->
+<DTM type="Segment">
+<!--DATE/TIME/PERIOD-->
+<C507 type="Composite">
+<!--Date/time/period qualifier-->
+<_2005><!--Despatch date and or time-->11</_2005>
+<!--Date/time/period-->
+<_2380>20070926</_2380>
+<!--Date/time/period format qualifier-->
+<_2379><!--CCYYMMDD-->102</_2379>
+</C507>
+</DTM>
+<MOALoop2 type="Loop">
+<!--MONETARY AMOUNT-->
+<MOA type="Segment">
+<!--MONETARY AMOUNT-->
+<C516 type="Composite">
+<!--Monetary amount type qualifier-->
+<_5025><!--Line item amount-->203</_5025>
+<!--Monetary amount-->
+<_5004>6950.00</_5004>
+</C516>
+</MOA>
+</MOALoop2>
+<PRILoop1 type="Loop">
+<!--PRICE DETAILS-->
+<PRI type="Segment">
+<!--PRICE INFORMATION-->
+<C509 type="Composite">
+<!--Price qualifier-->
+<_5125><!--Invoice price-->INV</_5125>
+<!--Price-->
+<_5118>695.00</_5118>
+<!--Price type, coded-->
+<_5375><!--Traded unit-->TU</_5375>
+</C509>
+</PRI>
+</PRILoop1>
+<TAXLoop3 type="Loop">
+<!--DUTY/TAX/FEE DETAILS-->
+<TAX type="Segment">
+<!--DUTY/TAX/FEE FUNCTION QUALIFIER-->
+<_5283><!--Tax-->7</_5283>
+<!--DUTY/TAX/FEE TYPE-->
+<C241 type="Composite">
+<!--Duty/tax/fee type, coded-->
+<_5153><!--Value added tax-->VAT</_5153>
+</C241>
+<!--DUTY/TAX/FEE ACCOUNT DETAIL-->
+<C533 type="Composite">
+<!--Duty/tax/fee account identification-->
+<_5289> </_5289>
+</C533>
+<!--DUTY/TAX/FEE ASSESSMENT BASIS-->
+<_5286/>
+<!--DUTY/TAX/FEE DETAIL-->
+<C243 type="Composite">
+<!--Duty/tax/fee rate identification-->
+<_5279></_5279>
+<!--Code list qualifier-->
+<_1131></_1131>
+<!--Code list responsible agency, coded-->
+<_3055></_3055>
+<!--Duty/tax/fee rate-->
+<_5278>17.500</_5278>
+</C243>
+<!--DUTY/TAX/FEE CATEGORY, CODED-->
+<_5305><!--Standard rate-->S</_5305>
+</TAX>
+<!--MONETARY AMOUNT-->
+<MOA type="Segment">
+<!--MONETARY AMOUNT-->
+<C516 type="Composite">
+<!--Monetary amount type qualifier-->
+<_5025><!--Taxable amount-->125</_5025>
+<!--Monetary amount-->
+<_5004>6950.16</_5004>
+</C516>
+</MOA>
+</TAXLoop3>
+<ALCLoop2 type="Loop">
+<!--ALLOWANCE OR CHARGE-->
+<ALC type="Segment">
+<!--ALLOWANCE OR CHARGE QUALIFIER-->
+<_5463><!--Charge-->C</_5463>
+<!--ALLOWANCE/CHARGE INFORMATION-->
+<C552 type="Composite">
+<!--Allowance or charge number-->
+<_1230>0.16</_1230>
+</C552>
+<!--SETTLEMENT, CODED-->
+<_4471/>
+<!--CALCULATION SEQUENCE INDICATOR, CODED-->
+<_1227/>
+<!--SPECIAL SERVICES IDENTIFICATION-->
+<C214 type="Composite">
+<!--Special services, coded-->
+<_7161><!--Freight charge-->FC</_7161>
+</C214>
+</ALC>
+<MOALoop3 type="Loop">
+<!--MONETARY AMOUNT-->
+<MOA type="Segment">
+<!--MONETARY AMOUNT-->
+<C516 type="Composite">
+<!--Monetary amount type qualifier-->
+<_5025><!--Allowance or charge amount-->8</_5025>
+<!--Monetary amount-->
+<_5004>0.16</_5004>
+</C516>
+</MOA>
+</MOALoop3>
+</ALCLoop2>
+</LINLoop1>
+<LINLoop1 type="Loop">
+<!--LINE ITEM-->
+<LIN type="Segment">
+<!--LINE ITEM NUMBER-->
+<_1082>000190</_1082>
+</LIN>
+<!--ADDITIONAL PRODUCT ID-->
+<PIA type="Segment">
+<!--PRODUCT ID. FUNCTION QUALIFIER-->
+<_4347><!--Additional identification-->1</_4347>
+<!--ITEM NUMBER IDENTIFICATION-->
+<C212 type="Composite">
+<!--Item number-->
+<_7140>2269F26</_7140>
+<!--Item number type, coded-->
+<_7143><!--Buyer&apos;s part number-->BP</_7143>
+<!--Code list qualifier-->
+<_1131></_1131>
+<!--Code list responsible agency, coded-->
+<_3055><!--Assigned by buyer or buyer&apos;s agent-->92</_3055>
+</C212>
+</PIA>
+<!--ADDITIONAL PRODUCT ID-->
+<PIA type="Segment">
+<!--PRODUCT ID. FUNCTION QUALIFIER-->
+<_4347><!--Additional identification-->1</_4347>
+<!--ITEM NUMBER IDENTIFICATION-->
+<C212 type="Composite">
+<!--Item number-->
+<_7140>5051254051190</_7140>
+<!--Item number type, coded-->
+<_7143><!--UPC (Universal product code)-->UP</_7143>
+<!--Code list qualifier-->
+<_1131></_1131>
+<!--Code list responsible agency, coded-->
+<_3055><!--Assigned by buyer or buyer&apos;s agent-->92</_3055>
+</C212>
+</PIA>
+<!--ITEM DESCRIPTION-->
+<IMD type="Segment">
+<!--ITEM DESCRIPTION TYPE, CODED-->
+<_7077><!--Free-form-->F</_7077>
+</IMD>
+<!--QUANTITY-->
+<QTY type="Segment">
+<!--QUANTITY DETAILS-->
+<C186 type="Composite">
+<!--Quantity qualifier-->
+<_6063><!--Invoiced quantity-->47</_6063>
+<!--Quantity-->
+<_6060>5.000</_6060>
+<!--Measure unit qualifier-->
+<_6411>EA</_6411>
+</C186>
+</QTY>
+<!--DATE/TIME/PERIOD-->
+<DTM type="Segment">
+<!--DATE/TIME/PERIOD-->
+<C507 type="Composite">
+<!--Date/time/period qualifier-->
+<_2005><!--Despatch date and or time-->11</_2005>
+<!--Date/time/period-->
+<_2380>20070926</_2380>
+<!--Date/time/period format qualifier-->
+<_2379><!--CCYYMMDD-->102</_2379>
+</C507>
+</DTM>
+<MOALoop2 type="Loop">
+<!--MONETARY AMOUNT-->
+<MOA type="Segment">
+<!--MONETARY AMOUNT-->
+<C516 type="Composite">
+<!--Monetary amount type qualifier-->
+<_5025><!--Line item amount-->203</_5025>
+<!--Monetary amount-->
+<_5004>2375.00</_5004>
+</C516>
+</MOA>
+</MOALoop2>
+<PRILoop1 type="Loop">
+<!--PRICE DETAILS-->
+<PRI type="Segment">
+<!--PRICE INFORMATION-->
+<C509 type="Composite">
+<!--Price qualifier-->
+<_5125><!--Invoice price-->INV</_5125>
+<!--Price-->
+<_5118>475.00</_5118>
+<!--Price type, coded-->
+<_5375><!--Traded unit-->TU</_5375>
+</C509>
+</PRI>
+</PRILoop1>
+<TAXLoop3 type="Loop">
+<!--DUTY/TAX/FEE DETAILS-->
+<TAX type="Segment">
+<!--DUTY/TAX/FEE FUNCTION QUALIFIER-->
+<_5283><!--Tax-->7</_5283>
+<!--DUTY/TAX/FEE TYPE-->
+<C241 type="Composite">
+<!--Duty/tax/fee type, coded-->
+<_5153><!--Value added tax-->VAT</_5153>
+</C241>
+<!--DUTY/TAX/FEE ACCOUNT DETAIL-->
+<C533 type="Composite">
+<!--Duty/tax/fee account identification-->
+<_5289> </_5289>
+</C533>
+<!--DUTY/TAX/FEE ASSESSMENT BASIS-->
+<_5286/>
+<!--DUTY/TAX/FEE DETAIL-->
+<C243 type="Composite">
+<!--Duty/tax/fee rate identification-->
+<_5279></_5279>
+<!--Code list qualifier-->
+<_1131></_1131>
+<!--Code list responsible agency, coded-->
+<_3055></_3055>
+<!--Duty/tax/fee rate-->
+<_5278>17.500</_5278>
+</C243>
+<!--DUTY/TAX/FEE CATEGORY, CODED-->
+<_5305><!--Standard rate-->S</_5305>
+</TAX>
+<!--MONETARY AMOUNT-->
+<MOA type="Segment">
+<!--MONETARY AMOUNT-->
+<C516 type="Composite">
+<!--Monetary amount type qualifier-->
+<_5025><!--Taxable amount-->125</_5025>
+<!--Monetary amount-->
+<_5004>2375.06</_5004>
+</C516>
+</MOA>
+</TAXLoop3>
+<ALCLoop2 type="Loop">
+<!--ALLOWANCE OR CHARGE-->
+<ALC type="Segment">
+<!--ALLOWANCE OR CHARGE QUALIFIER-->
+<_5463><!--Charge-->C</_5463>
+<!--ALLOWANCE/CHARGE INFORMATION-->
+<C552 type="Composite">
+<!--Allowance or charge number-->
+<_1230>0.06</_1230>
+</C552>
+<!--SETTLEMENT, CODED-->
+<_4471/>
+<!--CALCULATION SEQUENCE INDICATOR, CODED-->
+<_1227/>
+<!--SPECIAL SERVICES IDENTIFICATION-->
+<C214 type="Composite">
+<!--Special services, coded-->
+<_7161><!--Freight charge-->FC</_7161>
+</C214>
+</ALC>
+<MOALoop3 type="Loop">
+<!--MONETARY AMOUNT-->
+<MOA type="Segment">
+<!--MONETARY AMOUNT-->
+<C516 type="Composite">
+<!--Monetary amount type qualifier-->
+<_5025><!--Allowance or charge amount-->8</_5025>
+<!--Monetary amount-->
+<_5004>0.06</_5004>
+</C516>
+</MOA>
+</MOALoop3>
+</ALCLoop2>
+</LINLoop1>
+<LINLoop1 type="Loop">
+<!--LINE ITEM-->
+<LIN type="Segment">
+<!--LINE ITEM NUMBER-->
+<_1082>000200</_1082>
+</LIN>
+<!--ADDITIONAL PRODUCT ID-->
+<PIA type="Segment">
+<!--PRODUCT ID. FUNCTION QUALIFIER-->
+<_4347><!--Additional identification-->1</_4347>
+<!--ITEM NUMBER IDENTIFICATION-->
+<C212 type="Composite">
+<!--Item number-->
+<_7140>2265S24</_7140>
+<!--Item number type, coded-->
+<_7143><!--Buyer&apos;s part number-->BP</_7143>
+<!--Code list qualifier-->
+<_1131></_1131>
+<!--Code list responsible agency, coded-->
+<_3055><!--Assigned by buyer or buyer&apos;s agent-->92</_3055>
+</C212>
+</PIA>
+<!--ADDITIONAL PRODUCT ID-->
+<PIA type="Segment">
+<!--PRODUCT ID. FUNCTION QUALIFIER-->
+<_4347><!--Additional identification-->1</_4347>
+<!--ITEM NUMBER IDENTIFICATION-->
+<C212 type="Composite">
+<!--Item number-->
+<_7140>5029766000685</_7140>
+<!--Item number type, coded-->
+<_7143><!--UPC (Universal product code)-->UP</_7143>
+<!--Code list qualifier-->
+<_1131></_1131>
+<!--Code list responsible agency, coded-->
+<_3055><!--Assigned by buyer or buyer&apos;s agent-->92</_3055>
+</C212>
+</PIA>
+<!--ITEM DESCRIPTION-->
+<IMD type="Segment">
+<!--ITEM DESCRIPTION TYPE, CODED-->
+<_7077><!--Free-form-->F</_7077>
+</IMD>
+<!--QUANTITY-->
+<QTY type="Segment">
+<!--QUANTITY DETAILS-->
+<C186 type="Composite">
+<!--Quantity qualifier-->
+<_6063><!--Invoiced quantity-->47</_6063>
+<!--Quantity-->
+<_6060>3.000</_6060>
+<!--Measure unit qualifier-->
+<_6411>EA</_6411>
+</C186>
+</QTY>
+<!--DATE/TIME/PERIOD-->
+<DTM type="Segment">
+<!--DATE/TIME/PERIOD-->
+<C507 type="Composite">
+<!--Date/time/period qualifier-->
+<_2005><!--Despatch date and or time-->11</_2005>
+<!--Date/time/period-->
+<_2380>20070926</_2380>
+<!--Date/time/period format qualifier-->
+<_2379><!--CCYYMMDD-->102</_2379>
+</C507>
+</DTM>
+<MOALoop2 type="Loop">
+<!--MONETARY AMOUNT-->
+<MOA type="Segment">
+<!--MONETARY AMOUNT-->
+<C516 type="Composite">
+<!--Monetary amount type qualifier-->
+<_5025><!--Line item amount-->203</_5025>
+<!--Monetary amount-->
+<_5004>957.00</_5004>
+</C516>
+</MOA>
+</MOALoop2>
+<PRILoop1 type="Loop">
+<!--PRICE DETAILS-->
+<PRI type="Segment">
+<!--PRICE INFORMATION-->
+<C509 type="Composite">
+<!--Price qualifier-->
+<_5125><!--Invoice price-->INV</_5125>
+<!--Price-->
+<_5118>319.00</_5118>
+<!--Price type, coded-->
+<_5375><!--Traded unit-->TU</_5375>
+</C509>
+</PRI>
+</PRILoop1>
+<TAXLoop3 type="Loop">
+<!--DUTY/TAX/FEE DETAILS-->
+<TAX type="Segment">
+<!--DUTY/TAX/FEE FUNCTION QUALIFIER-->
+<_5283><!--Tax-->7</_5283>
+<!--DUTY/TAX/FEE TYPE-->
+<C241 type="Composite">
+<!--Duty/tax/fee type, coded-->
+<_5153><!--Value added tax-->VAT</_5153>
+</C241>
+<!--DUTY/TAX/FEE ACCOUNT DETAIL-->
+<C533 type="Composite">
+<!--Duty/tax/fee account identification-->
+<_5289> </_5289>
+</C533>
+<!--DUTY/TAX/FEE ASSESSMENT BASIS-->
+<_5286/>
+<!--DUTY/TAX/FEE DETAIL-->
+<C243 type="Composite">
+<!--Duty/tax/fee rate identification-->
+<_5279></_5279>
+<!--Code list qualifier-->
+<_1131></_1131>
+<!--Code list responsible agency, coded-->
+<_3055></_3055>
+<!--Duty/tax/fee rate-->
+<_5278>17.500</_5278>
+</C243>
+<!--DUTY/TAX/FEE CATEGORY, CODED-->
+<_5305><!--Standard rate-->S</_5305>
+</TAX>
+<!--MONETARY AMOUNT-->
+<MOA type="Segment">
+<!--MONETARY AMOUNT-->
+<C516 type="Composite">
+<!--Monetary amount type qualifier-->
+<_5025><!--Taxable amount-->125</_5025>
+<!--Monetary amount-->
+<_5004>957.02</_5004>
+</C516>
+</MOA>
+</TAXLoop3>
+<ALCLoop2 type="Loop">
+<!--ALLOWANCE OR CHARGE-->
+<ALC type="Segment">
+<!--ALLOWANCE OR CHARGE QUALIFIER-->
+<_5463><!--Charge-->C</_5463>
+<!--ALLOWANCE/CHARGE INFORMATION-->
+<C552 type="Composite">
+<!--Allowance or charge number-->
+<_1230>0.02</_1230>
+</C552>
+<!--SETTLEMENT, CODED-->
+<_4471/>
+<!--CALCULATION SEQUENCE INDICATOR, CODED-->
+<_1227/>
+<!--SPECIAL SERVICES IDENTIFICATION-->
+<C214 type="Composite">
+<!--Special services, coded-->
+<_7161><!--Freight charge-->FC</_7161>
+</C214>
+</ALC>
+<MOALoop3 type="Loop">
+<!--MONETARY AMOUNT-->
+<MOA type="Segment">
+<!--MONETARY AMOUNT-->
+<C516 type="Composite">
+<!--Monetary amount type qualifier-->
+<_5025><!--Allowance or charge amount-->8</_5025>
+<!--Monetary amount-->
+<_5004>0.02</_5004>
+</C516>
+</MOA>
+</MOALoop3>
+</ALCLoop2>
+</LINLoop1>
+<LINLoop1 type="Loop">
+<!--LINE ITEM-->
+<LIN type="Segment">
+<!--LINE ITEM NUMBER-->
+<_1082>000210</_1082>
+</LIN>
+<!--ADDITIONAL PRODUCT ID-->
+<PIA type="Segment">
+<!--PRODUCT ID. FUNCTION QUALIFIER-->
+<_4347><!--Additional identification-->1</_4347>
+<!--ITEM NUMBER IDENTIFICATION-->
+<C212 type="Composite">
+<!--Item number-->
+<_7140>2263T95</_7140>
+<!--Item number type, coded-->
+<_7143><!--Buyer&apos;s part number-->BP</_7143>
+<!--Code list qualifier-->
+<_1131></_1131>
+<!--Code list responsible agency, coded-->
+<_3055><!--Assigned by buyer or buyer&apos;s agent-->92</_3055>
+</C212>
+</PIA>
+<!--ADDITIONAL PRODUCT ID-->
+<PIA type="Segment">
+<!--PRODUCT ID. FUNCTION QUALIFIER-->
+<_4347><!--Additional identification-->1</_4347>
+<!--ITEM NUMBER IDENTIFICATION-->
+<C212 type="Composite">
+<!--Item number-->
+<_7140>5029766699575</_7140>
+<!--Item number type, coded-->
+<_7143><!--UPC (Universal product code)-->UP</_7143>
+<!--Code list qualifier-->
+<_1131></_1131>
+<!--Code list responsible agency, coded-->
+<_3055><!--Assigned by buyer or buyer&apos;s agent-->92</_3055>
+</C212>
+</PIA>
+<!--ITEM DESCRIPTION-->
+<IMD type="Segment">
+<!--ITEM DESCRIPTION TYPE, CODED-->
+<_7077><!--Free-form-->F</_7077>
+</IMD>
+<!--QUANTITY-->
+<QTY type="Segment">
+<!--QUANTITY DETAILS-->
+<C186 type="Composite">
+<!--Quantity qualifier-->
+<_6063><!--Invoiced quantity-->47</_6063>
+<!--Quantity-->
+<_6060>3.000</_6060>
+<!--Measure unit qualifier-->
+<_6411>EA</_6411>
+</C186>
+</QTY>
+<!--DATE/TIME/PERIOD-->
+<DTM type="Segment">
+<!--DATE/TIME/PERIOD-->
+<C507 type="Composite">
+<!--Date/time/period qualifier-->
+<_2005><!--Despatch date and or time-->11</_2005>
+<!--Date/time/period-->
+<_2380>20070926</_2380>
+<!--Date/time/period format qualifier-->
+<_2379><!--CCYYMMDD-->102</_2379>
+</C507>
+</DTM>
+<MOALoop2 type="Loop">
+<!--MONETARY AMOUNT-->
+<MOA type="Segment">
+<!--MONETARY AMOUNT-->
+<C516 type="Composite">
+<!--Monetary amount type qualifier-->
+<_5025><!--Line item amount-->203</_5025>
+<!--Monetary amount-->
+<_5004>2085.00</_5004>
+</C516>
+</MOA>
+</MOALoop2>
+<PRILoop1 type="Loop">
+<!--PRICE DETAILS-->
+<PRI type="Segment">
+<!--PRICE INFORMATION-->
+<C509 type="Composite">
+<!--Price qualifier-->
+<_5125><!--Invoice price-->INV</_5125>
+<!--Price-->
+<_5118>695.00</_5118>
+<!--Price type, coded-->
+<_5375><!--Traded unit-->TU</_5375>
+</C509>
+</PRI>
+</PRILoop1>
+<TAXLoop3 type="Loop">
+<!--DUTY/TAX/FEE DETAILS-->
+<TAX type="Segment">
+<!--DUTY/TAX/FEE FUNCTION QUALIFIER-->
+<_5283><!--Tax-->7</_5283>
+<!--DUTY/TAX/FEE TYPE-->
+<C241 type="Composite">
+<!--Duty/tax/fee type, coded-->
+<_5153><!--Value added tax-->VAT</_5153>
+</C241>
+<!--DUTY/TAX/FEE ACCOUNT DETAIL-->
+<C533 type="Composite">
+<!--Duty/tax/fee account identification-->
+<_5289> </_5289>
+</C533>
+<!--DUTY/TAX/FEE ASSESSMENT BASIS-->
+<_5286/>
+<!--DUTY/TAX/FEE DETAIL-->
+<C243 type="Composite">
+<!--Duty/tax/fee rate identification-->
+<_5279></_5279>
+<!--Code list qualifier-->
+<_1131></_1131>
+<!--Code list responsible agency, coded-->
+<_3055></_3055>
+<!--Duty/tax/fee rate-->
+<_5278>17.500</_5278>
+</C243>
+<!--DUTY/TAX/FEE CATEGORY, CODED-->
+<_5305><!--Standard rate-->S</_5305>
+</TAX>
+<!--MONETARY AMOUNT-->
+<MOA type="Segment">
+<!--MONETARY AMOUNT-->
+<C516 type="Composite">
+<!--Monetary amount type qualifier-->
+<_5025><!--Taxable amount-->125</_5025>
+<!--Monetary amount-->
+<_5004>2085.05</_5004>
+</C516>
+</MOA>
+</TAXLoop3>
+<ALCLoop2 type="Loop">
+<!--ALLOWANCE OR CHARGE-->
+<ALC type="Segment">
+<!--ALLOWANCE OR CHARGE QUALIFIER-->
+<_5463><!--Charge-->C</_5463>
+<!--ALLOWANCE/CHARGE INFORMATION-->
+<C552 type="Composite">
+<!--Allowance or charge number-->
+<_1230>0.05</_1230>
+</C552>
+<!--SETTLEMENT, CODED-->
+<_4471/>
+<!--CALCULATION SEQUENCE INDICATOR, CODED-->
+<_1227/>
+<!--SPECIAL SERVICES IDENTIFICATION-->
+<C214 type="Composite">
+<!--Special services, coded-->
+<_7161><!--Freight charge-->FC</_7161>
+</C214>
+</ALC>
+<MOALoop3 type="Loop">
+<!--MONETARY AMOUNT-->
+<MOA type="Segment">
+<!--MONETARY AMOUNT-->
+<C516 type="Composite">
+<!--Monetary amount type qualifier-->
+<_5025><!--Allowance or charge amount-->8</_5025>
+<!--Monetary amount-->
+<_5004>0.05</_5004>
+</C516>
+</MOA>
+</MOALoop3>
+</ALCLoop2>
+</LINLoop1>
+<LINLoop1 type="Loop">
+<!--LINE ITEM-->
+<LIN type="Segment">
+<!--LINE ITEM NUMBER-->
+<_1082>000250</_1082>
+</LIN>
+<!--ADDITIONAL PRODUCT ID-->
+<PIA type="Segment">
+<!--PRODUCT ID. FUNCTION QUALIFIER-->
+<_4347><!--Additional identification-->1</_4347>
+<!--ITEM NUMBER IDENTIFICATION-->
+<C212 type="Composite">
+<!--Item number-->
+<_7140>2269F15</_7140>
+<!--Item number type, coded-->
+<_7143><!--Buyer&apos;s part number-->BP</_7143>
+<!--Code list qualifier-->
+<_1131></_1131>
+<!--Code list responsible agency, coded-->
+<_3055><!--Assigned by buyer or buyer&apos;s agent-->92</_3055>
+</C212>
+</PIA>
+<!--ADDITIONAL PRODUCT ID-->
+<PIA type="Segment">
+<!--PRODUCT ID. FUNCTION QUALIFIER-->
+<_4347><!--Additional identification-->1</_4347>
+<!--ITEM NUMBER IDENTIFICATION-->
+<C212 type="Composite">
+<!--Item number-->
+<_7140>5051254080091</_7140>
+<!--Item number type, coded-->
+<_7143><!--UPC (Universal product code)-->UP</_7143>
+<!--Code list qualifier-->
+<_1131></_1131>
+<!--Code list responsible agency, coded-->
+<_3055><!--Assigned by buyer or buyer&apos;s agent-->92</_3055>
+</C212>
+</PIA>
+<!--ITEM DESCRIPTION-->
+<IMD type="Segment">
+<!--ITEM DESCRIPTION TYPE, CODED-->
+<_7077><!--Free-form-->F</_7077>
+</IMD>
+<!--QUANTITY-->
+<QTY type="Segment">
+<!--QUANTITY DETAILS-->
+<C186 type="Composite">
+<!--Quantity qualifier-->
+<_6063><!--Invoiced quantity-->47</_6063>
+<!--Quantity-->
+<_6060>3.000</_6060>
+<!--Measure unit qualifier-->
+<_6411>EA</_6411>
+</C186>
+</QTY>
+<!--DATE/TIME/PERIOD-->
+<DTM type="Segment">
+<!--DATE/TIME/PERIOD-->
+<C507 type="Composite">
+<!--Date/time/period qualifier-->
+<_2005><!--Despatch date and or time-->11</_2005>
+<!--Date/time/period-->
+<_2380>20070926</_2380>
+<!--Date/time/period format qualifier-->
+<_2379><!--CCYYMMDD-->102</_2379>
+</C507>
+</DTM>
+<MOALoop2 type="Loop">
+<!--MONETARY AMOUNT-->
+<MOA type="Segment">
+<!--MONETARY AMOUNT-->
+<C516 type="Composite">
+<!--Monetary amount type qualifier-->
+<_5025><!--Line item amount-->203</_5025>
+<!--Monetary amount-->
+<_5004>4977.00</_5004>
+</C516>
+</MOA>
+</MOALoop2>
+<PRILoop1 type="Loop">
+<!--PRICE DETAILS-->
+<PRI type="Segment">
+<!--PRICE INFORMATION-->
+<C509 type="Composite">
+<!--Price qualifier-->
+<_5125><!--Invoice price-->INV</_5125>
+<!--Price-->
+<_5118>1659.00</_5118>
+<!--Price type, coded-->
+<_5375><!--Traded unit-->TU</_5375>
+</C509>
+</PRI>
+</PRILoop1>
+<TAXLoop3 type="Loop">
+<!--DUTY/TAX/FEE DETAILS-->
+<TAX type="Segment">
+<!--DUTY/TAX/FEE FUNCTION QUALIFIER-->
+<_5283><!--Tax-->7</_5283>
+<!--DUTY/TAX/FEE TYPE-->
+<C241 type="Composite">
+<!--Duty/tax/fee type, coded-->
+<_5153><!--Value added tax-->VAT</_5153>
+</C241>
+<!--DUTY/TAX/FEE ACCOUNT DETAIL-->
+<C533 type="Composite">
+<!--Duty/tax/fee account identification-->
+<_5289> </_5289>
+</C533>
+<!--DUTY/TAX/FEE ASSESSMENT BASIS-->
+<_5286/>
+<!--DUTY/TAX/FEE DETAIL-->
+<C243 type="Composite">
+<!--Duty/tax/fee rate identification-->
+<_5279></_5279>
+<!--Code list qualifier-->
+<_1131></_1131>
+<!--Code list responsible agency, coded-->
+<_3055></_3055>
+<!--Duty/tax/fee rate-->
+<_5278>17.500</_5278>
+</C243>
+<!--DUTY/TAX/FEE CATEGORY, CODED-->
+<_5305><!--Standard rate-->S</_5305>
+</TAX>
+<!--MONETARY AMOUNT-->
+<MOA type="Segment">
+<!--MONETARY AMOUNT-->
+<C516 type="Composite">
+<!--Monetary amount type qualifier-->
+<_5025><!--Taxable amount-->125</_5025>
+<!--Monetary amount-->
+<_5004>4977.12</_5004>
+</C516>
+</MOA>
+</TAXLoop3>
+<ALCLoop2 type="Loop">
+<!--ALLOWANCE OR CHARGE-->
+<ALC type="Segment">
+<!--ALLOWANCE OR CHARGE QUALIFIER-->
+<_5463><!--Charge-->C</_5463>
+<!--ALLOWANCE/CHARGE INFORMATION-->
+<C552 type="Composite">
+<!--Allowance or charge number-->
+<_1230>0.12</_1230>
+</C552>
+<!--SETTLEMENT, CODED-->
+<_4471/>
+<!--CALCULATION SEQUENCE INDICATOR, CODED-->
+<_1227/>
+<!--SPECIAL SERVICES IDENTIFICATION-->
+<C214 type="Composite">
+<!--Special services, coded-->
+<_7161><!--Freight charge-->FC</_7161>
+</C214>
+</ALC>
+<MOALoop3 type="Loop">
+<!--MONETARY AMOUNT-->
+<MOA type="Segment">
+<!--MONETARY AMOUNT-->
+<C516 type="Composite">
+<!--Monetary amount type qualifier-->
+<_5025><!--Allowance or charge amount-->8</_5025>
+<!--Monetary amount-->
+<_5004>0.12</_5004>
+</C516>
+</MOA>
+</MOALoop3>
+</ALCLoop2>
+</LINLoop1>
+<UNS type="Segment">
+<!--SECTION IDENTIFICATION-->
+<_0081><!--Detail/summary section separation-->S</_0081>
+</UNS>
+<!--CONTROL TOTAL-->
+<CNT type="Segment">
+<!--CONTROL-->
+<C270 type="Composite">
+<!--Control qualifier-->
+<_6069><!--Number of invoice lines-->4</_6069>
+<!--Control value-->
+<_6066>7</_6066>
+</C270>
+</CNT>
+<MOALoop4 type="Loop">
+<!--MONETARY AMOUNT-->
+<MOA type="Segment">
+<!--MONETARY AMOUNT-->
+<C516 type="Composite">
+<!--Monetary amount type qualifier-->
+<_5025><!--Amount due/amount payable-->9</_5025>
+<!--Monetary amount-->
+<_5004>67627.50</_5004>
+</C516>
+</MOA>
+</MOALoop4>
+<MOALoop4 type="Loop">
+<!--MONETARY AMOUNT-->
+<MOA type="Segment">
+<!--MONETARY AMOUNT-->
+<C516 type="Composite">
+<!--Monetary amount type qualifier-->
+<_5025><!--Total line items amount-->79</_5025>
+<!--Monetary amount-->
+<_5004>57554.00</_5004>
+</C516>
+</MOA>
+</MOALoop4>
+<TAXLoop5 type="Loop">
+<!--DUTY/TAX/FEE DETAILS-->
+<TAX type="Segment">
+<!--DUTY/TAX/FEE FUNCTION QUALIFIER-->
+<_5283><!--Tax-->7</_5283>
+<!--DUTY/TAX/FEE TYPE-->
+<C241 type="Composite">
+<!--Duty/tax/fee type, coded-->
+<_5153><!--Value added tax-->VAT</_5153>
+</C241>
+<!--DUTY/TAX/FEE ACCOUNT DETAIL-->
+<C533 type="Composite">
+<!--Duty/tax/fee account identification-->
+<_5289> </_5289>
+</C533>
+<!--DUTY/TAX/FEE ASSESSMENT BASIS-->
+<_5286/>
+<!--DUTY/TAX/FEE DETAIL-->
+<C243 type="Composite">
+<!--Duty/tax/fee rate identification-->
+<_5279></_5279>
+<!--Code list qualifier-->
+<_1131></_1131>
+<!--Code list responsible agency, coded-->
+<_3055></_3055>
+<!--Duty/tax/fee rate-->
+<_5278>17.500</_5278>
+</C243>
+<!--DUTY/TAX/FEE CATEGORY, CODED-->
+<_5305><!--Standard rate-->S</_5305>
+</TAX>
+<!--MONETARY AMOUNT-->
+<MOA type="Segment">
+<!--MONETARY AMOUNT-->
+<C516 type="Composite">
+<!--Monetary amount type qualifier-->
+<_5025><!--Taxable amount-->125</_5025>
+<!--Monetary amount-->
+<_5004>57555.36</_5004>
+<!--Currency, coded-->
+<_6345>EUR</_6345>
+<!--Currency qualifier-->
+<_6343><!--Home currency-->3</_6343>
+</C516>
+</MOA>
+<!--MONETARY AMOUNT-->
+<MOA type="Segment">
+<!--MONETARY AMOUNT-->
+<C516 type="Composite">
+<!--Monetary amount type qualifier-->
+<_5025><!--Tax amount-->124</_5025>
+<!--Monetary amount-->
+<_5004>10072.14</_5004>
+<!--Currency, coded-->
+<_6345>EUR</_6345>
+<!--Currency qualifier-->
+<_6343><!--Home currency-->3</_6343>
+</C516>
+</MOA>
+</TAXLoop5>
+<ALCLoop3 type="Loop">
+<!--ALLOWANCE OR CHARGE-->
+<ALC type="Segment">
+<!--ALLOWANCE OR CHARGE QUALIFIER-->
+<_5463><!--Charge-->C</_5463>
+<!--ALLOWANCE/CHARGE INFORMATION-->
+<C552 type="Composite">
+<!--Allowance or charge number-->
+<_1230>1.36</_1230>
+</C552>
+<!--SETTLEMENT, CODED-->
+<_4471/>
+<!--CALCULATION SEQUENCE INDICATOR, CODED-->
+<_1227/>
+<!--SPECIAL SERVICES IDENTIFICATION-->
+<C214 type="Composite">
+<!--Special services, coded-->
+<_7161><!--Freight charge-->FC</_7161>
+</C214>
+</ALC>
+<!--MONETARY AMOUNT-->
+<MOA type="Segment">
+<!--MONETARY AMOUNT-->
+<C516 type="Composite">
+<!--Monetary amount type qualifier-->
+<_5025><!--Allowance or charge amount-->8</_5025>
+<!--Monetary amount-->
+<_5004>1.36</_5004>
+</C516>
+</MOA>
+</ALCLoop3>
+</TX-D97A-INVOIC>
+</TransactionSet>
+</Interchange>

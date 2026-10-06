@@ -1,0 +1,36 @@
+[2026-09-30T10:23:23.065+05:30][Info] Arc Version: 26.3.9762.0
+[2026-09-30T10:23:23.068+05:30][Info] System Version: Microsoft Windows 11 Enterprise
+[2026-09-30T10:23:23.068+05:30][Info] VM Version: 4.0.30319.42000
+[2026-09-30T10:23:23.065+05:30][Info] Instance Id: DESKTOP-MIF39HO.6NUBDVD2.58464.554791210, Workspace Id: As2, Connector Id: As2-AS2, Connector Type: AS2.
+[2026-09-30T10:23:23.065+05:30][Info] Ready to start processing AS2 request at 2026-09-30T10:23:23.SSS.
+[2026-09-30T10:23:23.068+05:30][Info] Start processing AS2 request.
+[2026-09-30T10:23:23.068+05:30][Info] AS2 configuration loaded successfully.
+[2026-09-30T10:23:23.069+05:30][Info] Reading AS2 request...
+[2026-09-30T10:23:23.069+05:30][Info] Header: Connection: close
+[2026-09-30T10:23:23.069+05:30][Info] Header: Date: Wed, 30 Sep 2026 04:53:22 GMT
+[2026-09-30T10:23:23.069+05:30][Info] Header: Content-Length: 4523
+[2026-09-30T10:23:23.069+05:30][Info] Header: Content-Type: application/pkcs7-mime; smime-type=enveloped-data; name="smime.p7m"
+[2026-09-30T10:23:23.069+05:30][Info] Header: Accept-Encoding: gzip, deflate
+[2026-09-30T10:23:23.069+05:30][Info] Header: Host: localhost:8001
+[2026-09-30T10:23:23.069+05:30][Info] Header: User-Agent: CData Arc - arc.cdata.com
+[2026-09-30T10:23:23.069+05:30][Info] Header: AS2-To: As2
+[2026-09-30T10:23:23.069+05:30][Info] Header: AS2-From: As2
+[2026-09-30T10:23:23.069+05:30][Info] Header: AS2-Version: 1.2
+[2026-09-30T10:23:23.069+05:30][Info] Header: EDIINT-Features: CEM, multiple-attachments, AS2-Reliability
+[2026-09-30T10:23:23.069+05:30][Info] Header: Message-Id: <As2-AS2-20260930-102322713-3URX@As2_As2>
+[2026-09-30T10:23:23.069+05:30][Info] Header: Disposition-Notification-To: request-mdn@none.org
+[2026-09-30T10:23:23.069+05:30][Info] Header: Disposition-Notification-Options: signed-receipt-protocol=optional, pkcs7-signature; signed-receipt-micalg=optional, sha1
+[2026-09-30T10:23:23.069+05:30][Info] Header: X-Powered-By: CData Arc
+[2026-09-30T10:23:23.069+05:30][Info] Header: MIME-Version: 1.0
+[2026-09-30T10:23:23.069+05:30][Info] Header: Content-Disposition: attachment; filename="smime.p7m"
+[2026-09-30T10:23:23.069+05:30][Info] Start processing AS2 reliability.
+[2026-09-30T10:23:23.077+05:30][Info] Finished processing AS2 reliability: duplicate=False.
+[2026-09-30T10:23:23.078+05:30][Info] [RecipientInfo] Issuer: CN=Roopesh SerialNumber: 031770 SubjectKeyIdentifier:  EncryptionAlgorithm: 2.16.840.1.101.3.4.1.2
+[2026-09-30T10:23:23.100+05:30][Info] [EDIDataInfo] Name: INVOIC.edi DataType: application/edi-x12 duplicate: False
+[2026-09-30T10:23:23.100+05:30][Info] [SignerCertInfo] Issuer: CN=Roopesh SerialNumber: 031770 SubjectKeyIdentifier: 
+[2026-09-30T10:23:23.127+05:30][Info] Signature: application/pkcs7-signature
+[2026-09-30T10:23:23.127+05:30][Info] Encryption: application/pkcs7-mime
+[2026-09-30T10:23:23.127+05:30][Info] Filename: INVOIC.edi
+[2026-09-30T10:23:23.127+05:30][Info] Finished processing AS2 request.
+[2026-09-30T10:23:23.155+05:30][Info] INVOIC.edi is routed to As2-EDIFACT.
+[2026-09-30T10:23:23.155+05:30][Info] Message As2-AS2-20260930-102323065-Xuy7 is finalized. Name: INVOIC.edi, Type: Output, Status: Success, Message: , Processing Time: 90ms.

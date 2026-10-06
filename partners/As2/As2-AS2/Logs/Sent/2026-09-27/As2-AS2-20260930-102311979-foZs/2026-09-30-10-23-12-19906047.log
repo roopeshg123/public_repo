@@ -1,0 +1,29 @@
+[2026-09-30T10:23:12.322+05:30][Info] Arc Version: 26.3.9762.0
+[2026-09-30T10:23:12.350+05:30][Info] System Version: Microsoft Windows 11 Enterprise
+[2026-09-30T10:23:12.350+05:30][Info] VM Version: 4.0.30319.42000
+[2026-09-30T10:23:12.199+05:30][Info] Instance Id: DESKTOP-MIF39HO.6NUBDVD2.58464.554791210, Workspace Id: As2, Connector Id: As2-AS2, Connector Type: AS2.
+[2026-09-30T10:23:12.322+05:30][Info] OUTGOING TRANSMISSION TO http://localhost:8001/pub/Receive.rsb
+[2026-09-30T10:23:12.350+05:30][Info] Originator: As2
+[2026-09-30T10:23:12.350+05:30][Info] Recipient: As2
+[2026-09-30T10:23:12.350+05:30][Info] Signature: on (sha1)
+[2026-09-30T10:23:12.350+05:30][Info] Encryption: on (AESCBC128)
+[2026-09-30T10:23:12.350+05:30][Info] Compression: off
+[2026-09-30T10:23:12.350+05:30][Info] Filename: INVOIC.edi
+[2026-09-30T10:23:12.350+05:30][Info] MDN Requested: 
+[2026-09-30T10:23:12.350+05:30][Info] Synchronous
+[2026-09-30T10:23:12.350+05:30][Info] MDN Signature: on
+[2026-09-30T10:23:12.516+05:30][Info] [Connected] [0] OK
+[2026-09-30T10:23:12.517+05:30][Info] [StartTransfer] Direction: Client
+[2026-09-30T10:23:12.519+05:30][Info] [Transfer] Direction: Client BytesTransferred: 4539 PercentDone: 100
+[2026-09-30T10:23:12.519+05:30][Info] [EndTransfer] Direction: Client
+[2026-09-30T10:23:12.902+05:30][Info] [StartTransfer] Direction: Server
+[2026-09-30T10:23:12.902+05:30][Info] [Transfer] Direction: Server BytesTransferred: 2511 PercentDone: 100
+[2026-09-30T10:23:12.903+05:30][Info] [Disconnected] [0] OK
+[2026-09-30T10:23:12.903+05:30][Info] [EndTransfer] Direction: Server
+[2026-09-30T10:23:12.903+05:30][Info] Transmission was successful.
+[2026-09-30T10:23:12.915+05:30][Info] ---TIMESTAMP Wed, 30 Sep 2026 10:23:12 +0530 [1790743992915]---
+[2026-09-30T10:23:12.917+05:30][Info] [SignerCertInfo] Issuer: CN=Roopesh SerialNumber: 031770 SubjectKeyIdentifier: 
+[2026-09-30T10:23:12.967+05:30][Info] The MDN was signed and was successfully verified.
+[2026-09-30T10:23:12.968+05:30][Info] Execute afterSend Event.
+[2026-09-30T10:23:12.982+05:30][Info] Event processed successfully.
+[2026-09-30T10:23:12.988+05:30][Info] Message As2-AS2-20260930-102311979-foZs is finalized. Name: INVOIC.edi, Type: Input, Status: Success, Message: , Processing Time: 789ms.

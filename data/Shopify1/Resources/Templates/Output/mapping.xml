@@ -1,0 +1,20 @@
+<!--
+NOTE: The following attributes can be included in the table XML:
+selectQuery="SELECT * FROM XXX" - This can be used to specify a custom query to execute for this mapping.
+skipProcessedRows="true" - When true, the application will only process rows one time.
+-->
+
+<Items>
+    <OrderLineItemTaxLines table="`OrderLineItemTaxLines`" allColumns="true" selectQuery="SELECT * FROM `OrderLineItemTaxLines` WHERE `Title` = 'GST'">
+        <ResourceId key="true" />
+        <Title key="true" />
+        <ChannelLiable type="boolean" />
+        <PriceSetPresentmentMoneyAmount type="decimal" />
+        <PriceSetPresentmentMoneyCurrencyCode />
+        <PriceSetShopMoneyAmount type="decimal" />
+        <PriceSetShopMoneyCurrencyCode />
+        <Rate type="double" />
+        <RatePercentage type="double" />
+        <Source />
+    </OrderLineItemTaxLines>
+</Items>

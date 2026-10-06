@@ -1,0 +1,7 @@
+<Items>
+    <test_items table="`dbo`.`test_items`" action="UPSERT">
+        <id type="integer" key="true" />
+        <name />
+        <val />
+    </test_items>
+</Items>

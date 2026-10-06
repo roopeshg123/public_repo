@@ -1,0 +1,16 @@
+[2026-09-30T10:23:40.029+05:30][Info] Arc Version: 26.3.9762.0
+[2026-09-30T10:23:40.030+05:30][Info] System Version: Microsoft Windows 11 Enterprise
+[2026-09-30T10:23:40.030+05:30][Info] VM Version: 4.0.30319.42000
+[2026-09-30T10:23:40.029+05:30][Info] Instance Id: DESKTOP-MIF39HO.6NUBDVD2.58464.554791210, Workspace Id: As2, Connector Id: As2-EDIFACT, Connector Type: EDIFACT.
+[2026-09-30T10:23:40.029+05:30][Info] Translate from INVOIC.edi to INVOIC.xml.
+[2026-09-30T10:23:40.030+05:30][Info] Parsing file INVOIC.edi
+[2026-09-30T10:23:40.031+05:30][Info] Done parsing file.
+[2026-09-30T10:23:40.031+05:30][Info] Generating file INVOIC.xml
+[2026-09-30T10:23:40.037+05:30][Info] Translate finished.
+[2026-09-30T10:23:40.039+05:30][Info] Done generating file.
+[2026-09-30T10:23:40.063+05:30][Info] Execute afterReceive Event.
+[2026-09-30T10:23:40.067+05:30][Info] Event processed successfully.
+[2026-09-30T10:23:40.070+05:30][Warning] Unable to find any document that can continue to process this message: Standard: EDIFACT, Direction: Incoming, Version: D97A, Document Type: INVOIC.
+[2026-09-30T10:23:40.070+05:30][Warning] Incomplete Partner/Document flow, change message status to warning.
+[2026-09-30T10:23:40.071+05:30][Info] Message As2-AS2-20260930-102339533-S7ow is finalized. Name: INVOIC_000000002.xml, Type: Output, Status: Warning, Message: Incomplete Partner/Document flow, change message status to warning., Processing Time: 42ms.
+[2026-09-30T10:23:40.075+05:30][Info] Message As2-AS2-20260930-102339533-S7ow is finalized. Name: INVOIC.edi, Type: Input, Status: Success, Message: , Processing Time: 46ms.

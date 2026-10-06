@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Items xmlns:flatfile="http://arc.cdata.com/ns/flatfileconnector">
+	<EDI_832_IN>
+		<CurrencyCode>USD</CurrencyCode>
+		<RecordType></RecordType>
+		<DocumentType></DocumentType>
+		<SequenceNumber></SequenceNumber>
+		<CustomerNumber>023846</CustomerNumber>
+		<OrderType></OrderType>
+		<CreateDate>6/26/2025</CreateDate>
+		<EffectiveDate>6/26/2025</EffectiveDate>
+		<ItemNumber>10000286</ItemNumber>
+		<Description>16-PORT INDUSTRIAL GIGABIT POE</Description>
+		<MFGPartNumber>TI-PG162</MFGPartNumber>
+		<MFGNumber></MFGNumber>
+		<MFGName>TRENDNET</MFGName>
+		<UPCCode></UPCCode>
+		<Price>374.59</Price>
+		<MSRP>459.99</MSRP>
+		<UOM>EA</UOM>
+		<UOMAlternate></UOMAlternate>
+		<ConversionFactor></ConversionFactor>
+		<RCAT></RCAT>
+		<CutsheetURL></CutsheetURL>
+		<ItemImageURL>https://images.eanixter.com/viewex/PR342965V6.JPG      </ItemImageURL>
+		<Category>SWITCH</Category>
+		<SubCategory></SubCategory>
+		<ReplacedItemNumber></ReplacedItemNumber>
+		<ReplacedMFGPartNumber></ReplacedMFGPartNumber>
+		<ReplacedMFGNumber></ReplacedMFGNumber>
+		<ReplacedMFGName></ReplacedMFGName>
+		<ReplacedUPCCode></ReplacedUPCCode>
+		<ReplacedPrice></ReplacedPrice>
+	</EDI_832_IN>
+</Items>

@@ -1,0 +1,6 @@
+<arc:set attr="tel.dryrun" value="true" />
+<arc:call op="portTelemetryReportTask" in="tel" out="out">
+  <arc:set attr="output.filename" value="telemetry_dryrun.json" />
+  <arc:set attr="output.data" value="[out.edi_data | join(',')]" />
+  <arc:push item="output" />
+</arc:call>

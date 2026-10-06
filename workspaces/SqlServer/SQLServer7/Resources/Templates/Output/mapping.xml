@@ -1,0 +1,24 @@
+<!--
+NOTE: The following attributes can be included in the table XML:
+selectQuery="SELECT * FROM XXX" - This can be used to specify a custom query to execute for this mapping.
+skipProcessedRows="true" - When true, the application will only process rows one time.
+-->
+
+<Items>
+    <Orders table="`dbo`.`Orders`">
+        <OrderID type="integer" key="true" />
+        <CreatedDate type="datetime" />
+        <CustomerID type="integer" />
+        <DeliveryDate type="datetime" />
+        <OrderDate type="datetime" />
+        <OrderNumber />
+        <OrderStatus />
+        <PaymentMethod />
+        <Remarks />
+        <ShippingAddress />
+        <ShippingCity />
+        <ShippingDate type="datetime" />
+        <ShippingPostalCode />
+        <TotalAmount type="decimal" />
+    </Orders>
+</Items>

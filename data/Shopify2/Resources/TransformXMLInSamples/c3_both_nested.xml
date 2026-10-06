@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ARCESB-15311 C3: Both OrderLineItemCustomAttributes AND OrderLineItemTaxLines on one line item -->
+<!-- Charlie's explicit QA ask: driver expects both as column values on OrderLineItems#TEMP insert -->
+<!-- BEFORE USING: Replace REAL_VARIANT_ID_1 with actual GID from your Shopify store -->
+<Items>
+    <Orders>
+        <Email>qa-test-15311-c3@example.com</Email>
+        <Note>ARCESB-15311 C3 - Both nested tables in one OrderLineItems</Note>
+        <ShippingAddressFirstName>QA</ShippingAddressFirstName>
+        <ShippingAddressLastName>Tester</ShippingAddressLastName>
+        <ShippingAddressAddress1>123 Test Street</ShippingAddressAddress1>
+        <ShippingAddressCity>Raleigh</ShippingAddressCity>
+        <ShippingAddressCountryCodeV2>US</ShippingAddressCountryCodeV2>
+        <ShippingAddressZip>27601</ShippingAddressZip>
+        <OrderLineItems>
+            <Title>Full Nested Product</Title>
+            <Quantity>2</Quantity>
+            <VariantId>gid://shopify/ProductVariant/REAL_VARIANT_ID_1</VariantId>
+            <Sku>SKU-FULL-001</Sku>
+            <Taxable>true</Taxable>
+            <OriginalUnitPriceSetShopMoneyAmount>39.99</OriginalUnitPriceSetShopMoneyAmount>
+            <OriginalUnitPriceSetShopMoneyCurrencyCode>USD</OriginalUnitPriceSetShopMoneyCurrencyCode>
+            <OrderLineItemCustomAttributes>
+                <Key>gift_message</Key>
+                <Value>Happy Birthday!</Value>
+            </OrderLineItemCustomAttributes>
+            <OrderLineItemTaxLines>
+                <Title>GST</Title>
+                <Rate>0.10</Rate>
+                <PriceSetShopMoneyAmount>7.99</PriceSetShopMoneyAmount>
+                <PriceSetShopMoneyCurrencyCode>USD</PriceSetShopMoneyCurrencyCode>
+            </OrderLineItemTaxLines>
+        </OrderLineItems>
+    </Orders>
+</Items>

@@ -1,0 +1,1 @@
+{"name":"Items","foreach":"/Items","children":[{"name":"test_items","foreach":"item","children":[{"name":"id","value":{"xpath":"id"}},{"name":"name","value":{"xpath":"name"}},{"name":"val","value":{"xpath":"val"}}]}]}

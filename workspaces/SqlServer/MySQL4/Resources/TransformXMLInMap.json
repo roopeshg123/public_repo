@@ -1,0 +1,1 @@
+{"name":"Items","foreach":"/Items","children":[{"name":"actor_bak","foreach":"actor","children":[{"name":"actor_id","value":{"xpath":"actor_id"}},{"name":"first_name","value":{"xpath":"first_name"}},{"name":"last_name","value":{"xpath":"last_name"}},{"name":"last_update","value":{"xpath":"last_update"}}]}]}

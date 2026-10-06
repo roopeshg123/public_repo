@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ARCESB-15311 C1: OrderLineItemCustomAttributes nested inside OrderLineItems -->
+<!-- Charlie's explicit QA ask: confirm nested tables work -->
+<!-- BEFORE USING: Replace REAL_VARIANT_ID_1 with actual GID from your Shopify store -->
+<Items>
+    <Orders>
+        <Email>qa-test-15311-c1@example.com</Email>
+        <Note>ARCESB-15311 C1 - OrderLineItemCustomAttributes nested test</Note>
+        <ShippingAddressFirstName>QA</ShippingAddressFirstName>
+        <ShippingAddressLastName>Tester</ShippingAddressLastName>
+        <ShippingAddressAddress1>123 Test Street</ShippingAddressAddress1>
+        <ShippingAddressCity>Raleigh</ShippingAddressCity>
+        <ShippingAddressCountryCodeV2>US</ShippingAddressCountryCodeV2>
+        <ShippingAddressZip>27601</ShippingAddressZip>
+        <OrderLineItems>
+            <Title>Custom Attr Product</Title>
+            <Quantity>1</Quantity>
+            <VariantId>gid://shopify/ProductVariant/REAL_VARIANT_ID_1</VariantId>
+            <Sku>SKU-CUSTOM-001</Sku>
+            <OriginalUnitPriceSetShopMoneyAmount>25.00</OriginalUnitPriceSetShopMoneyAmount>
+            <OriginalUnitPriceSetShopMoneyCurrencyCode>USD</OriginalUnitPriceSetShopMoneyCurrencyCode>
+            <OrderLineItemCustomAttributes>
+                <Key>promo_code</Key>
+                <Value>SUMMER10</Value>
+            </OrderLineItemCustomAttributes>
+        </OrderLineItems>
+    </Orders>
+</Items>

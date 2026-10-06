@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Items xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<OrderTransactions>
+		<Id>gid://shopify/OrderTransaction/9471446712343</Id>
+		<ResourceId>gid://shopify/Order/7320275976215</ResourceId>
+		<AccountNumber></AccountNumber>
+		<AmountRoundingSetPresentmentMoneyAmount xsi:nil="true"/>
+		<AmountRoundingSetPresentmentMoneyCurrencyCode xsi:nil="true"/>
+		<AmountRoundingSetShopMoneyAmount xsi:nil="true"/>
+		<AmountRoundingSetShopMoneyCurrencyCode xsi:nil="true"/>
+		<AmountSetPresentmentMoneyAmount>44.990000</AmountSetPresentmentMoneyAmount>
+		<AmountSetPresentmentMoneyCurrencyCode>USD</AmountSetPresentmentMoneyCurrencyCode>
+		<AmountSetShopMoneyAmount>44.990000</AmountSetShopMoneyAmount>
+		<AmountSetShopMoneyCurrencyCode>USD</AmountSetShopMoneyCurrencyCode>
+		<AuthorizationCode xsi:nil="true"/>
+		<AuthorizationExpiresAt xsi:nil="true"/>
+		<CreatedAt>2026-08-10T17:48:44.0000+05:30</CreatedAt>
+		<CurrencyExchangeAdjustmentId xsi:nil="true"/>
+		<ErrorCode xsi:nil="true"/>
+		<FormattedGateway></FormattedGateway>
+		<Gateway></Gateway>
+		<Kind>SALE</Kind>
+		<ManuallyCapturable>false</ManuallyCapturable>
+		<MaximumRefundableV2Amount xsi:nil="true"/>
+		<MaximumRefundableV2CurrencyCode xsi:nil="true"/>
+		<MultiCapturable>false</MultiCapturable>
+		<ParentTransactionId xsi:nil="true"/>
+		<PaymentDetailsCardAvsResultCode xsi:nil="true"/>
+		<PaymentDetailsCardBin xsi:nil="true"/>
+		<PaymentDetailsCardCompany xsi:nil="true"/>
+		<PaymentDetailsCardCvvResultCode xsi:nil="true"/>
+		<PaymentDetailsCardExpirationMonth xsi:nil="true"/>
+		<PaymentDetailsCardExpirationYear xsi:nil="true"/>
+		<PaymentDetailsCardName xsi:nil="true"/>
+		<PaymentDetailsCardNumber xsi:nil="true"/>
+		<PaymentDetailsCardPaymentMethodName xsi:nil="true"/>
+		<PaymentDetailsCardWallet xsi:nil="true"/>
+		<PaymentDetailsLocalPaymentDescriptor xsi:nil="true"/>
+		<PaymentDetailsLocalPaymentMethodName xsi:nil="true"/>
+		<PaymentDetailsShopPayInstallmentsPaymentMethodName xsi:nil="true"/>
+		<PaymentIconAltText>unknown</PaymentIconAltText>
+		<PaymentIconHeight xsi:nil="true"/>
+		<PaymentIconId xsi:nil="true"/>
+		<PaymentIconWidth xsi:nil="true"/>
+		<PaymentId>#16246.1</PaymentId>
+		<ProcessedAt>2026-08-10T17:48:44.0000+05:30</ProcessedAt>
+		<ReceiptJson>{}</ReceiptJson>
+		<SettlementCurrency xsi:nil="true"/>
+		<SettlementCurrencyRate xsi:nil="true"/>
+		<ShopifyPaymentsSetExtendedAuthorizationSetExtendedAuthorizationExpiresAt xsi:nil="true"/>
+		<ShopifyPaymentsSetExtendedAuthorizationSetStandardAuthorizationExpiresAt xsi:nil="true"/>
+		<ShopifyPaymentsSetRefundSetAcquirerReferenceNumber xsi:nil="true"/>
+		<Status>SUCCESS</Status>
+		<Test>false</Test>
+		<TotalUnsettledSetPresentmentMoneyAmount>0.000000</TotalUnsettledSetPresentmentMoneyAmount>
+		<TotalUnsettledSetPresentmentMoneyCurrencyCode>USD</TotalUnsettledSetPresentmentMoneyCurrencyCode>
+		<TotalUnsettledSetShopMoneyAmount>0.000000</TotalUnsettledSetShopMoneyAmount>
+		<TotalUnsettledSetShopMoneyCurrencyCode>USD</TotalUnsettledSetShopMoneyCurrencyCode>
+	</OrderTransactions>
+</Items>

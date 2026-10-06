@@ -1,0 +1,1 @@
+{"name":"Items","foreach":"/Interchange","children":[{"name":"actor","children":[{"name":"actor_id"},{"name":"first_name","value":{"xpath":"@Delimiters"}},{"name":"last_name","value":{"xpath":"Meta/UNB2/@type"}},{"name":"last_update"}]}]}

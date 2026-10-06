@@ -1,0 +1,14 @@
+<!--
+NOTE: The following attributes can be included in the table XML:
+selectQuery="SELECT * FROM XXX" - This can be used to specify a custom query to execute for this mapping.
+skipProcessedRows="true" - When true, the application will only process rows one time.
+-->
+
+<Items>
+    <actor table="`actor`" allColumns="true" selectQuery="SELECT * FROM `actor`">
+        <actor_id type="smallint" key="true" />
+        <first_name />
+        <last_name />
+        <last_update type="datetime" />
+    </actor>
+</Items>

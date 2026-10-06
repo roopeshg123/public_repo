@@ -1,0 +1,358 @@
+<Items>
+    <SalesOrder table="`SalesOrder`" action="UPSERT">
+        <InternalId key="true" readonly="true" />
+        <AAA />
+        <AAA_InternalId />
+        <AccountingBookDetailList_ReplaceAll type="boolean" />
+        <AccountingBookDetail column="AccountingBookDetailListAggregate" aggregate="true" />
+        <ACH_Batch_ID column="ACH Batch ID" />
+        <ActualShipDate type="datetime" />
+        <AltHandlingCost type="decimal" />
+        <AltSalesTotal type="decimal" />
+        <AltShippingCost type="decimal" />
+        <AuthCode />
+        <Balance type="decimal" />
+        <BensNewTxBodyCustomField />
+        <BillAddressList_InternalId />
+        <BillAddressList_Name />
+        <BillingAddress_Addr1 />
+        <BillingAddress_Addr2 />
+        <BillingAddress_Addr3 />
+        <BillingAddress_Addressee />
+        <BillingAddress_AddrPhone />
+        <BillingAddress_AddrText />
+        <BillingAddress_Attention />
+        <BillingAddress_City />
+        <BillingAddress_Country />
+        <BillingAddress_CustomFieldListAggregate aggregate="true" />
+        <BillingAddress_InternalId />
+        <BillingAddress_NullFieldListAggregate aggregate="true" />
+        <BillingAddress_Override type="boolean" />
+        <BillingAddress_State />
+        <BillingAddress_Zip />
+        <BillingSchedule_InternalId />
+        <BillingSchedule_Name />
+        <CamTestSegment />
+        <CamTestSegment_InternalId />
+        <CanHaveStackable type="boolean" />
+        <CcApproved type="boolean" />
+        <CcAvsStreetMatch />
+        <CcAvsZipMatch />
+        <CcExpireDate type="datetime" />
+        <CcName />
+        <CcNumber />
+        <CcSecurityCode />
+        <CcSecurityCodeMatch />
+        <CcStreet />
+        <CcZipCode />
+        <Cf_Document />
+        <Cf_Document_InternalId />
+        <Cf_Image />
+        <Cf_Image_InternalId />
+        <Cf_Timeofday type="time" />
+        <CheckNumber />
+        <Class_InternalId />
+        <Class_Name />
+        <Column1 />
+        <Contact_s_ column="Contact(s)" />
+        <ContribPct />
+        <Copy_Employees column="Copy Employees" />
+        <Copy_Employees_InternalIds column="Copy Employees_InternalIds" />
+        <CreatedDate type="datetime" />
+        <CreatedFrom_InternalId />
+        <CreatedFrom_Name />
+        <CreditCard_InternalId />
+        <CreditCard_Name />
+        <CreditCardProcessor_InternalId />
+        <CreditCardProcessor_Name />
+        <Currency_InternalId />
+        <Currency_Name />
+        <CurrencyName />
+        <CUSTBODY_ACTION_CODE type="bigint" />
+        <Custbody_Cancel_Date type="date" />
+        <CustBodyDateTimeField type="datetime" />
+        <CustGogo />
+        <CustomArea />
+        <CustomArea_InternalId />
+        <CustomDate2 type="date" />
+        <Customer_Phone column="Customer Phone" />
+        <Customer_Priority column="Customer Priority" type="bigint" />
+        <CustomFieldListAggregate aggregate="true" />
+        <CustomForm_InternalId />
+        <CustomForm_Name />
+        <CustomRecord_TimeType />
+        <CustomRecord_TimeType_InternalId />
+        <CustomRecordTest_Sugimoto />
+        <CustomRecordTest_Sugimoto_InternalId />
+        <CustomRecordTypeA />
+        <CustomRecordTypeA_InternalId />
+        <CustomSegmentD />
+        <CustomSegmentD_InternalId />
+        <CustomTrans4Sales />
+        <CustomTransType_BodyField1 />
+        <DebitCardIssueNo />
+        <DeferredRevenue type="decimal" />
+        <Delivery_Instructions column="Delivery Instructions" />
+        <Department_InternalId />
+        <Department_Name />
+        <DiscountItem_InternalId />
+        <DiscountItem_Name />
+        <DiscountRate />
+        <DiscountTotal type="decimal" />
+        <Distribution_Channel_JET column="Distribution Channel JET" />
+        <Distribution_Channel_JET_InternalId column="Distribution Channel JET_InternalId" />
+        <Division_Field />
+        <DrAccount_InternalId />
+        <DrAccount_Name />
+        <DynamicDescriptor />
+        <Edwinfield />
+        <Email />
+        <Email2 />
+        <EndDate type="datetime" />
+        <Entity_InternalId />
+        <Entity_Name />
+        <EntityTaxRegNum_InternalId />
+        <EntityTaxRegNum_Name />
+        <EstGrossProfit type="decimal" />
+        <EstGrossProfitPercent type="decimal" />
+        <ExchangeRate type="decimal" />
+        <ExcludeCommission type="boolean" />
+        <ExternalId />
+        <Fabian />
+        <Fabian_InternalId />
+        <Fax />
+        <Finance_Approved column="Finance Approved" type="boolean" />
+        <Finance_Approved_Date column="Finance Approved Date" type="date" />
+        <Finance_Declined column="Finance Declined" type="boolean" />
+        <FirstBodyField />
+        <Fob />
+        <FxAccount_InternalId />
+        <FxAccount_Name />
+        <GetAuth type="boolean" />
+        <GiftCertApplied type="decimal" />
+        <GiftCertRedemptionList_ReplaceAll type="boolean" />
+        <GiftCertRedemption column="GiftCertRedemptionListAggregate" aggregate="true" />
+        <GloTestSegment />
+        <GloTestSegment_InternalId />
+        <HandlingCost type="decimal" />
+        <HandlingMode />
+        <HandlingTax1Rate type="decimal" />
+        <HandlingTax2Rate />
+        <HandlingTaxCode_InternalId />
+        <HandlingTaxCode_Name />
+        <Hello />
+        <IgnoreAvs type="boolean" />
+        <InputAuthCode />
+        <InputReferenceCode />
+        <Instalação />
+        <IntercoStatus />
+        <IntercoTransaction_InternalId />
+        <IntercoTransaction_Name />
+        <IsMultiShipTo type="boolean" />
+        <IsRecurringPayment type="boolean" />
+        <IsTaxable type="boolean" />
+        <Item />
+        <Item_InternalId />
+        <SalesOrderItem_ReplaceAll column="ItemList_ReplaceAll" type="boolean" />
+        <SalesOrderItem column="ItemListAggregate" aggregate="true" />
+        <ItemUrl />
+        <Jain_Test />
+        <Jain_Test_InternalId />
+        <JETsegment />
+        <JETsegment_InternalId />
+        <Job_InternalId />
+        <Job_Name />
+        <K_Test_TL />
+        <K_Test_TL_InternalId />
+        <LastModifiedDate type="datetime" />
+        <LeadSource_InternalId />
+        <LeadSource_Name />
+        <LinkedTrackingNumbers />
+        <LM26 />
+        <LM26_Field column="LM26 Field" />
+        <LM26_Field_InternalId column="LM26 Field_InternalId" />
+        <LM26_InternalId />
+        <LM36_Field />
+        <LM36_Field_InternalId />
+        <Location_InternalId />
+        <Location_Name />
+        <Memo />
+        <Message />
+        <MessageSel_InternalId />
+        <MessageSel_Name />
+        <NaumSegment />
+        <NaumSegment_InternalId />
+        <NewCustomSeg />
+        <NewCustomSeg_InternalIds />
+        <NewK />
+        <NewK_InternalId />
+        <NextBill type="datetime" />
+        <Nexus_InternalId />
+        <Nexus_Name />
+        <OneTime type="decimal" />
+        <Opportunity_InternalId />
+        <Opportunity_Name />
+        <OrderStatus />
+        <OtherRefNum />
+        <OutputAuthCode />
+        <OutputReferenceCode />
+        <Partner_InternalId />
+        <Partner_Name />
+        <PartnersList_ReplaceAll type="boolean" />
+        <Partners column="PartnersListAggregate" aggregate="true" />
+        <PaymentCardCsc />
+        <PaymentEventDate type="datetime" />
+        <PaymentEventHoldReason />
+        <PaymentEventResult />
+        <PaymentEventType />
+        <PaymentEventUpdatedBy />
+        <PaymentMethod_InternalId />
+        <PaymentMethod_Name />
+        <PaymentOperation />
+        <PaymentOption_InternalId />
+        <PaymentOption_Name />
+        <PaymentProcessingProfile_InternalId />
+        <PaymentProcessingProfile_Name />
+        <PaypalAuthId />
+        <PaypalProcess type="boolean" />
+        <PayPalStatus />
+        <PayPalTranId />
+        <Permissions_Test_Field column="Permissions Test Field" type="bigint" />
+        <Phone_Number column="Phone Number" />
+        <Picture_Frame_Item_ID column="Picture Frame Item ID" />
+        <Picture_Frame_Item_ID_InternalId column="Picture Frame Item ID_InternalId" />
+        <PnRefNum />
+        <Priority type="bigint" />
+        <Promise_Date column="Promise Date" type="date" />
+        <Promise_Date__2_ column="Promise Date (2)" type="date" />
+        <PromoCode_InternalId />
+        <PromoCode_Name />
+        <PromotionsList_ReplaceAll type="boolean" />
+        <Promotions column="PromotionsListAggregate" aggregate="true" />
+        <Reason_for_Return column="Reason for Return" />
+        <Reason_for_Return_InternalId column="Reason for Return_InternalId" />
+        <RecognizedRevenue type="decimal" />
+        <RecurAnnually type="decimal" />
+        <RecurMonthly type="decimal" />
+        <RecurQuarterly type="decimal" />
+        <RecurWeekly type="decimal" />
+        <Report_Timestamp column="Report Timestamp" />
+        <Requires_Finance_Approval column="Requires Finance Approval" type="boolean" />
+        <Requires_Sales_Manager_Approval column="Requires Sales Manager Approval" type="boolean" />
+        <RevCommitStatus />
+        <Revenu_Shubham />
+        <Revenu_Shubham_InternalId />
+        <Revenue_Type />
+        <Revenue_Type_InternalId />
+        <RevenueStatus />
+        <RevRecEndDate type="datetime" />
+        <RevRecOnRevCommitment type="boolean" />
+        <RevRecSchedule_InternalId />
+        <RevRecSchedule_Name />
+        <RevRecStartDate type="datetime" />
+        <SaleCustomField_ column="SaleCustomField?" />
+        <Sales_Manager_Approved column="Sales Manager Approved" type="boolean" />
+        <Sales_Manager_Approved_Date column="Sales Manager Approved Date" type="date" />
+        <Sales_Manager_Declined column="Sales Manager Declined" type="boolean" />
+        <SalesEffectiveDate type="datetime" />
+        <SalesGroup_InternalId />
+        <SalesGroup_Name />
+        <SalesRep_InternalId />
+        <SalesRep_Name />
+        <SalesTeamList_ReplaceAll type="boolean" />
+        <SalesTeam column="SalesTeamListAggregate" aggregate="true" />
+        <SaveOnAuthDecline type="boolean" />
+        <Senior_Executive_Approved column="Senior Executive Approved" type="boolean" />
+        <Senior_Executive_Approved_Date column="Senior Executive Approved Date" type="date" />
+        <Senior_Executive_Declined column="Senior Executive Declined" type="boolean" />
+        <Serial_Lot_Number column="Serial/Lot Number" />
+        <ShipAddressList_InternalId />
+        <ShipAddressList_Name />
+        <ShipComplete type="boolean" />
+        <ShipDate type="datetime" />
+        <ShipGroupList_ReplaceAll type="boolean" />
+        <ShipGroup column="ShipGroupListAggregate" aggregate="true" />
+        <ShipIsResidential type="boolean" />
+        <ShipMethod_InternalId />
+        <ShipMethod_Name />
+        <ShippingAddress_Addr1 />
+        <ShippingAddress_Addr2 />
+        <ShippingAddress_Addr3 />
+        <ShippingAddress_Addressee />
+        <ShippingAddress_AddrPhone />
+        <ShippingAddress_AddrText />
+        <ShippingAddress_Attention />
+        <ShippingAddress_City />
+        <ShippingAddress_Country />
+        <ShippingAddress_CustomFieldListAggregate aggregate="true" />
+        <ShippingAddress_InternalId />
+        <ShippingAddress_NullFieldListAggregate aggregate="true" />
+        <ShippingAddress_Override type="boolean" />
+        <ShippingAddress_State />
+        <ShippingAddress_Zip />
+        <ShippingCost type="decimal" />
+        <ShippingTax1Rate type="decimal" />
+        <ShippingTax2Rate />
+        <ShippingTaxCode_InternalId />
+        <ShippingTaxCode_Name />
+        <ShopperIpAddress />
+        <SoumyaTestCloud />
+        <SoumyaTransaction type="boolean" />
+        <Source />
+        <StartDate type="datetime" />
+        <Status />
+        <Subsidiary_InternalId />
+        <Subsidiary_Name />
+        <SubsidiaryTaxRegNum_InternalId />
+        <SubsidiaryTaxRegNum_Name />
+        <SubTotal type="decimal" />
+        <SyncPartnerTeams type="boolean" />
+        <SyncSalesTeams type="boolean" />
+        <SyncSegmentJet />
+        <SyncSegmentJet_InternalId />
+        <TapanConnect />
+        <Tax2Total type="decimal" />
+        <TaxDetailsList_ReplaceAll type="boolean" />
+        <TaxDetails column="TaxDetailsListAggregate" aggregate="true" />
+        <TaxDetailsOverride type="boolean" />
+        <TaxItem_InternalId />
+        <TaxItem_Name />
+        <TaxPointDate type="datetime" />
+        <TaxRate type="decimal" />
+        <TaxRegOverride type="boolean" />
+        <TaxTotal type="decimal" />
+        <TaylorField />
+        <TaylorField_InternalId />
+        <TaylorSegment />
+        <TaylorSegment_InternalId />
+        <Terms_InternalId />
+        <Terms_Name />
+        <Test_Est_U column="Test Est U" type="decimal" />
+        <Testd />
+        <Testd_InternalId />
+        <TestD2 />
+        <TestD2_InternalId />
+        <Testdd />
+        <Testdd_InternalId />
+        <TestSegment />
+        <TestSegment_InternalId />
+        <ThreeDStatusCode />
+        <ToBeEmailed type="boolean" />
+        <ToBeFaxed type="boolean" />
+        <ToBePrinted type="boolean" />
+        <Total type="decimal" />
+        <TotalCostEstimate type="decimal" />
+        <Tracking_Number_in_Website column="Tracking Number in Website" />
+        <TrackingNumbers />
+        <TranDate type="datetime" />
+        <TranId />
+        <TranIsVsoeBundle type="boolean" />
+        <TransBodyField_NotStored />
+        <Uday2 />
+        <Uday3 />
+        <Udaytest />
+        <ValidFrom type="datetime" />
+        <VatRegNum />
+        <VsoeAutoCalc type="boolean" />
+    </SalesOrder>
+</Items>

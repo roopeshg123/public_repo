@@ -1,0 +1,16 @@
+[2026-09-30T10:23:23.514+05:30][Info] Arc Version: 26.3.9762.0
+[2026-09-30T10:23:23.515+05:30][Info] System Version: Microsoft Windows 11 Enterprise
+[2026-09-30T10:23:23.515+05:30][Info] VM Version: 4.0.30319.42000
+[2026-09-30T10:23:23.513+05:30][Info] Instance Id: DESKTOP-MIF39HO.6NUBDVD2.58464.554791210, Workspace Id: As2, Connector Id: As2-EDIFACT, Connector Type: EDIFACT.
+[2026-09-30T10:23:23.514+05:30][Info] Translate from INVOICedfefrtrgrggvgbgbhnhnhnhnhnhnhnhnhnhnhn.edi to INVOICedfefrtrgrggvgbgbhnhnhnhnhnhnhnhnhnhnhn.xml.
+[2026-09-30T10:23:23.515+05:30][Info] Parsing file INVOICedfefrtrgrggvgbgbhnhnhnhnhnhnhnhnhnhnhn.edi
+[2026-09-30T10:23:23.515+05:30][Info] Done parsing file.
+[2026-09-30T10:23:23.516+05:30][Info] Generating file INVOICedfefrtrgrggvgbgbhnhnhnhnhnhnhnhnhnhnhn.xml
+[2026-09-30T10:23:23.522+05:30][Info] Translate finished.
+[2026-09-30T10:23:23.522+05:30][Info] Done generating file.
+[2026-09-30T10:23:23.546+05:30][Info] Execute afterReceive Event.
+[2026-09-30T10:23:23.550+05:30][Info] Event processed successfully.
+[2026-09-30T10:23:23.553+05:30][Warning] Unable to find any document that can continue to process this message: Standard: EDIFACT, Direction: Incoming, Version: D97A, Document Type: INVOIC.
+[2026-09-30T10:23:23.553+05:30][Warning] Incomplete Partner/Document flow, change message status to warning.
+[2026-09-30T10:23:23.555+05:30][Info] Message As2-AS2-20260930-102323119-Qt4F is finalized. Name: INVOICedfefrtrgrggvgbgbhnhnhnhnhnhnhnhnhnhnhn_000000002.xml, Type: Output, Status: Warning, Message: Incomplete Partner/Document flow, change message status to warning., Processing Time: 42ms.
+[2026-09-30T10:23:23.563+05:30][Info] Message As2-AS2-20260930-102323119-Qt4F is finalized. Name: INVOICedfefrtrgrggvgbgbhnhnhnhnhnhnhnhnhnhnhn.edi, Type: Input, Status: Success, Message: , Processing Time: 50ms.

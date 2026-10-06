@@ -1,0 +1,19 @@
+<Items>
+    <runFirst table="updateTable" insertQuery="TRUNCATE TABLE [dbo].[Orders]" requireInput="false"/>
+    <Orders table="`dbo`.`Orders`" action="UPSERT">
+        <OrderID type="integer" key="true" ref="@@LAST_INSERT_ID" readonly="true" />
+        <CreatedDate type="datetime" />
+        <CustomerID type="integer" />
+        <DeliveryDate type="datetime" />
+        <OrderDate type="datetime" />
+        <OrderNumber />
+        <OrderStatus />
+        <PaymentMethod />
+        <Remarks />
+        <ShippingAddress />
+        <ShippingCity />
+        <ShippingDate type="datetime" />
+        <ShippingPostalCode />
+        <TotalAmount type="decimal" />
+    </Orders>
+</Items>

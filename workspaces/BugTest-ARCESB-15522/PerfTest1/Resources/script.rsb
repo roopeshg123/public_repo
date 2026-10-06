@@ -1,0 +1,14 @@
+<!-- ARCESB-15522 Bug Reproduction Script
+     Tests encDecode(format=HEX, outformat=BASE64) in a 20,000-iteration loop.
+     Bug build expected: ~14 seconds (O(n^2) due to unbounded meta-item accumulation)
+     Fix build expected: <0.5 seconds (O(n) with new base64encode('hex') formatter)
+-->
+<arc:enum range="1..20000">
+  <arc:set attr="enc.data"      value="[guid()]" />
+  <arc:set attr="enc.format"    value="HEX" />
+  <arc:set attr="enc.outformat" value="BASE64" />
+  <arc:call op="encDecode" in="enc" out="enc" />
+</arc:enum>
+<arc:set attr="output.filename" value="perf_result_bugbuild.txt" />
+<arc:set attr="output.data"     value="ARCESB-15522 BUG BUILD: 20000 encDecode(HEX-&gt;BASE64) calls complete. Check log timestamps for elapsed time." />
+<arc:push item="output" />

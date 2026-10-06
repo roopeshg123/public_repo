@@ -1,0 +1,52 @@
+ISA*00*ssssssssss*00*rrrrrrrrrr*ZZ*testas2        *ZZ*testas2        *260203*0953*U*00401*000000001*0*T*:~
+GS*PO*S1S1S1S1S1S1S1S*R1R1R1R1R1R1R1R*961007*2013*000000001*X*004010~
+ST*850*0001~
+BEG*00*SA*ORD20251113001**20251113~
+REF*IA*IA001~
+REF*GK**UPSAcc~
+PER*BD*Buyer Contact*TE*5551234567*EM*buyer@example.com*FX*5551234568~
+PER*IC*Invoice Contact*TE*5559876543*EM*invoice@example.com*FX*5559876544~
+FOB*CC*DE*Delivered Ex Dock~
+CSH*N~
+ITD*01*1*3******Net 30 Days~
+DTM*002*20251120~
+DTM*037*20251115~
+DTM*038*20251116~
+DTM*118*20251125~
+TD5**2*UPS*A*Chicago, IL*******3D~
+N9*L1*General Notes - Please use eco-friendly packaging.~
+N1*BT*Buyer Company*92*XXXXXXXXX~
+N2*Attn - Procurement Dept~
+N3*XXX Buyer Address~
+N4*City*ST*XXXXX*US~
+PER*IC*Procurement Team*TE*5551234567*EM*procurement@example.com*FX*5551234568~
+N1*ST*Ship To Location*92*XXXXXXXXX~
+N2*Attn - Warehouse~
+N3*XXX Ship To Address~
+N4*City*ST*XXXXX*US~
+PER*IC*Warehouse Manager*TE*5559876543*EM*warehouse@example.com*FX*5559876544~
+N1*VN*Vendor Company*92*VENDOR123~
+N2*Attn - Sales Dept~
+N3*XXX Vendor Address~
+N4*City*ST*XXXXX*US~
+PER*IC*Vendor Rep*TE*5554567890*EM*vendor@example.com*FX*5554567891~
+PO1*001*10*EA*15.99**VN*VEND001*SK*SKU001*UK*UNIT*UP*159.90~
+PID*F****Dog Food - Chicken & Rice 20lb Bag~
+N9*L1*Special Handling Required~
+PO1*002*5*EA*29.99**VN*VEND002*SK*SKU002*UK*UNIT*UP*149.95~
+PID*F****Cat Litter - Unscented 25lb~
+N9*L1*Heavy Item~
+PO1*003*20*EA*5.50**VN*VEND003*SK*SKU003*UK*UNIT*UP*110.00~
+PID*F****Dog Treats - Peanut Butter 12oz~
+N9*L1*Perishable~
+PO1*004*15*EA*12.00**VN*VEND004*SK*SKU004*UK*UNIT*UP*180.00~
+PID*F****Cat Toy - Feather Wand~
+N9*L1*Small Package~
+PO1*005*8*EA*39.99**VN*VEND005*SK*SKU005*UK*UNIT*UP*319.92~
+PID*F****Dog Bed - Orthopedic Large~
+N9*L1*Fragile~
+CTT*5*919.77~
+AMT*TT*919.77~
+SE*48*0001~
+GE*1*000000001~
+IEA*1*000000001~
